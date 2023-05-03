@@ -1,0 +1,112 @@
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Nhom5_QuanLySuaChuaBaoHanh.dll.config
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Nhom5_QuanLySuaChuaBaoHanh.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Nhom5_QuanLySuaChuaBaoHanh.pdb
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csc.exe
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csc.exe.config
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csc.rsp
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csi.exe
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csi.exe.config
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csi.rsp
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.Managed.Core.targets
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.AppContext.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Collections.Immutable.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Console.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.Compression.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.FileSystem.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.Pipes.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Reflection.Metadata.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.AccessControl.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Claims.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Principal.Windows.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.ValueTuple.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.XPath.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\vbc.exe
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\vbc.exe.config
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\vbc.rsp
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\VBCSCompiler.exe
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\VBCSCompiler.exe.config
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.csprojAssemblyReference.cache
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.csproj.CoreCompileInputs.cache
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.csproj.CopyComplete
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.dll
+E:\HocTap\6_HK2_22_23\DAPM\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.pdb
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Nhom5_QuanLySuaChuaBaoHanh.dll.config
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Nhom5_QuanLySuaChuaBaoHanh.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Nhom5_QuanLySuaChuaBaoHanh.pdb
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csc.exe
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csc.exe.config
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csc.rsp
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csi.exe
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csi.exe.config
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\csi.rsp
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.AppContext.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Collections.Immutable.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Console.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.Compression.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.FileSystem.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.IO.Pipes.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Reflection.Metadata.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.AccessControl.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Claims.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Security.Principal.Windows.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.ValueTuple.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.XPath.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\vbc.exe
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\vbc.exe.config
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\vbc.rsp
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\VBCSCompiler.exe
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\roslyn\VBCSCompiler.exe.config
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.csprojAssemblyReference.cache
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.csproj.CoreCompileInputs.cache
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.csproj.CopyComplete
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.dll
+D:\zobo0s (1)\Nhom5_QuanLySuaChuaBaoHanh\Nhom5_QuanLySuaChuaBaoHanh\obj\Debug\Nhom5_QuanLySuaChuaBaoHanh.pdb
