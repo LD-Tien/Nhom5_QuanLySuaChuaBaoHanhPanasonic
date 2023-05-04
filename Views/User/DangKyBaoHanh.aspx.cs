@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User
 {
-    public partial class Users : System.Web.UI.MasterPage
+    public partial class DangKyBaoHanh : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Timer1_Tick(object sender, EventArgs e)
         {
 
         }
