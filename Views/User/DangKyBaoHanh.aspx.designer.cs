@@ -10,7 +10,7 @@
 namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User {
     
     
-    public partial class DangKySuaChua {
+    public partial class DangKyBaoHanh {
         
         /// <summary>
         /// DropDownList1 control.
@@ -20,15 +20,6 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// DropDownList2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
         
         /// <summary>
         /// Calendar1 control.
@@ -47,5 +38,14 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        
+        /// <summary>
+        /// FileUpload1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
     }
 }
