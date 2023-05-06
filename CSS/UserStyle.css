@@ -105,11 +105,17 @@ a {
 
 .nav__link {
     font-weight: 500;
-    font-size: 3.5rem;
-    line-height: 4.8rem;
+    font-size: 2.8rem;
+    line-height: 1.5;
     padding: 8px 40px;
     position: relative;
     color: #ABABAB;
+}
+
+
+.nav__list li:hover .nav__link {
+    color: rgba(17, 52, 143, 0.96);
+    text-shadow: 1px 0 0 currentColor;
 }
 
 .nav .subnav li:hover .nav__link {
@@ -246,13 +252,15 @@ a {
     color: #FFFFFF;
     background: #2E80CE;
     border-radius: 4px;
+    outline: none;
+    border: none;
 }
 
 /* Đăng ký sửa chữa*/
 .repair__heading {
     margin-top: 40px;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 3rem;
     line-height: 48px;
     color: #1F3447;
     padding-left: 44px;
@@ -335,6 +343,7 @@ a {
     margin: 40px 40px 0 0;
     display: flex;
     justify-content: flex-end;
+    column-gap: 50px;
 }
 
 .cta__btn {
@@ -348,4 +357,18 @@ a {
     text-align: center;
     font-weight: 700;
     font-size: 2.2rem;
+}
+
+.cta__btn--delete {
+    min-width: 255px;
+    color: white;
+    background-color: #E43958;
+}
+.cta__btn--save:hover,
+.cta__btn--delete:hover {
+    opacity: 0.8;
+}
+.cta__btn--save {
+    min-width: 255px;
+    color: #0F1720;
 }
