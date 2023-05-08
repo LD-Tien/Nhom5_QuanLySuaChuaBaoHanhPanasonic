@@ -40,16 +40,16 @@ namespace Nhom5_QuanLySuaChuaBaoHanh
             dt.Columns.Add("Trạng thái đơn", typeof(string));
 
             // Thêm các hàng vào DataTable
-            dt.Rows.Add("SC001", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 1), "08:00", "Hoàn thành");
-            dt.Rows.Add("SC002", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 2), "09:30", "Đã duyệt");
-            dt.Rows.Add("SC003", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 3), "11:00", "Từ chối");
-            dt.Rows.Add("SC004", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 4), "13:30", "Chờ duyệt");
-            dt.Rows.Add("SC005", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 5), "15:00", "Hoàn thành");
-            dt.Rows.Add("SC006", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 6), "16:30", "Đã duyệt");
-            dt.Rows.Add("SC007", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 7), "08:30", "Hoàn thành");
-            dt.Rows.Add("SC008", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 8), "10:00", "Từ chối");
-            dt.Rows.Add("SC009", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 9), "11:30", "Đã duyệt");
-            dt.Rows.Add("SC010", "Sửa chữa tủ lạnh", "Chênh lệch nhiệt độ", new DateTime(2023, 4, 10), "13:00", "Hoàn thành");
+            dt.Rows.Add("1", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 1), "08:00-09:00", "Hoàn thành");
+            dt.Rows.Add("2", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 2), "09:00-10:00", "Đã duyệt");
+            dt.Rows.Add("3", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 3), "11:00-12:00", "Từ chối");
+            dt.Rows.Add("4", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 4), "13:00-14:00", "Chờ duyệt");
+            dt.Rows.Add("5", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 5), "15:00-16:00", "Hoàn thành");
+            dt.Rows.Add("6", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 6), "16:00-17:00", "Đã duyệt");
+            dt.Rows.Add("7", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 7), "08:00-09:00", "Hoàn thành");
+            dt.Rows.Add("8", "Sửa chữa tủ lạnh",  "Chênh lệch nhiệt độ", new DateTime(2023, 4, 8), "10:00-11:00", "Từ chối");
+            dt.Rows.Add("9", "Sửa chữa tủ lạnh", "Xử lý sự cố không lạnh", new DateTime(2023, 4, 9), "11:00-12:00", "Đã duyệt");
+            dt.Rows.Add("10", "Sửa chữa tủ lạnh", "Chênh lệch nhiệt độ", new DateTime(2023, 4, 10), "13:00-14:00", "Hoàn thành");
 
             return dt;
         }
