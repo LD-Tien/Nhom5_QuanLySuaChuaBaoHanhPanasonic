@@ -85,13 +85,13 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Admin {
         protected global::System.Web.UI.WebControls.TextBox txtDiaChi;
         
         /// <summary>
-        /// btnCapNhatTKNV control.
+        /// btnLuuTKNV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCapNhatTKNV;
+        protected global::System.Web.UI.WebControls.Button btnLuuTKNV;
         
         /// <summary>
         /// btnKhoaTKNV control.

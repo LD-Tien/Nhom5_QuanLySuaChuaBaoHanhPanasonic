@@ -5,8 +5,7 @@
      <h2 class="mb-5">Thêm tài khoản nhân viên</h2>
     
     <div class="row justify-content-center g-3 mb-5">
-        <h5 class="col-md-6 mt-2">Thông tin tài khoản</h5>
-        <h5 class="col-md-6 mt-2 text-end">Mã tài khoản: 0000001</h5>
+        <h5 class="col-md-12 mt-2">Thông tin tài khoản</h5>
         <div class="col-md-4">
             <label for="lbTenTaiKhoan" class="form-label">Tên tài khoản<span style="color: red">*</span></label>
             <asp:TextBox ID="txtTenTaiKhoan" runat="server" CssClass="form-control"></asp:TextBox>
@@ -19,8 +18,8 @@
             <label for="lbQTC" class="form-label">Quyền truy cập<span style="color: red">*</span></label>
             <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-select">
                 <asp:ListItem Text="Kỹ thuật viên" Selected="True"></asp:ListItem>
-                <asp:ListItem Text="Nhân viên quản lý"></asp:ListItem>
-                <asp:ListItem Text="Nhân viên chăm sóc khách hàng"></asp:ListItem>
+                <asp:ListItem Text="Quản lý"></asp:ListItem>
+                <asp:ListItem Text="CSKH"></asp:ListItem>
                 <asp:ListItem Text="Quản trị viên"></asp:ListItem>
             </asp:DropDownList>
         </div>

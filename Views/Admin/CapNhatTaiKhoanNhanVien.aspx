@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-         <h2 class="mb-5">Cập nhật tài khoản nhân viên</h2>
+    <h2 class="mb-5">Cập nhật tài khoản nhân viên</h2>
     
     <div class="row g-3 mb-5">
         <h5 class="col-md-6 mt-2">Thông tin tài khoản</h5>
@@ -19,8 +19,8 @@
             <label for="lbQTC" class="form-label">Quyền truy cập<span style="color: red">*</span></label>
             <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-select">
                 <asp:ListItem Text="Kỹ thuật viên" ></asp:ListItem>
-                <asp:ListItem Text="Nhân viên quản lý" Selected="True"></asp:ListItem>
-                <asp:ListItem Text="Nhân viên chăm sóc khách hàng"></asp:ListItem>
+                <asp:ListItem Text="Quản lý" Selected="True"></asp:ListItem>
+                <asp:ListItem Text="CSKH"></asp:ListItem>
                 <asp:ListItem Text="Quản trị viên"></asp:ListItem>
             </asp:DropDownList>
         </div>
@@ -52,7 +52,7 @@
             <label for="lbDiaChi" class="form-label">Địa chỉ<span style="color: red">*</span></label>
             <asp:TextBox ID="txtDiaChi" runat="server" CssClass="form-control"> 81 Đống Đa, Đà Nẵng</asp:TextBox>
         </div>
-        <asp:Button ID="btnCapNhatTKNV" runat="server" Text="Lưu" CssClass="btn btn-primary col-md-1 mt-4"/>
+        <asp:Button ID="btnLuuTKNV" runat="server" Text="Lưu" CssClass="btn btn-primary col-md-1 mt-4"/>
         <asp:Button ID="btnKhoaTKNV" runat="server" Text="Khóa tài khoản" CssClass="btn btn-warning col-md-2 mt-4 ms-5"/>
     </div>
 </asp:Content>
