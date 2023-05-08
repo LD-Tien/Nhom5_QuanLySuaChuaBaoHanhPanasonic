@@ -75,6 +75,7 @@
     <Content Include="Images\logo.png" />
     <Content Include="Images\search.png" />
     <Content Include="Images\star.png" />
+    <Content Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx" />
     <Content Include="Views\Admin\DanhSachTaiKhoan.aspx" />
     <Content Include="Views\Admin\ThemTaiKhoanNhanVien.aspx" />
     <Content Include="Views\NVCSKH\ChiTietDonBaoHanh.aspx" />
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Views\Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx.cs">
+      <DependentUpon>CapNhatTaiKhoanNhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx.designer.cs">
+      <DependentUpon>CapNhatTaiKhoanNhanVien.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Admin\DanhSachTaiKhoan.aspx.cs">
       <DependentUpon>DanhSachTaiKhoan.aspx</DependentUpon>

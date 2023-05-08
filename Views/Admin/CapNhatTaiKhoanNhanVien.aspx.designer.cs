@@ -10,7 +10,7 @@
 namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Admin {
     
     
-    public partial class ThemTaiKhoan {
+    public partial class CapNhatTaiKhoanNhanVien {
         
         /// <summary>
         /// txtTenTaiKhoan control.
@@ -85,12 +85,21 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Admin {
         protected global::System.Web.UI.WebControls.TextBox txtDiaChi;
         
         /// <summary>
-        /// btnThemTKNV control.
+        /// btnCapNhatTKNV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnThemTKNV;
+        protected global::System.Web.UI.WebControls.Button btnCapNhatTKNV;
+        
+        /// <summary>
+        /// btnKhoaTKNV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnKhoaTKNV;
     }
 }
