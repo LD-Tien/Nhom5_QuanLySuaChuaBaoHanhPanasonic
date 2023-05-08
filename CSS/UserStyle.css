@@ -1,0 +1,374 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: linear-gradient(to bottom, rgba(242, 242, 242, 0.73) 40%, white 40%)
+}
+
+.header__top {
+    height: 115px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 381px;
+    height: 61px;
+    object-fit: cover;
+    cursor:pointer;
+}
+
+.header__form {
+    margin: 0 70px;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: #fff;
+    position: relative;
+    padding: 0 10px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.header__search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 18px;
+    cursor: pointer;
+}
+
+.header__input {
+    width: 100%;
+    padding: 14px 71px 14px 10px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: #333333;
+}
+
+.header__login {
+    cursor: pointer;
+    display: inline-block;
+    min-width: 136px;
+    padding: 0 16px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 999px;
+    background: transparent;
+    background: #000958;
+    color: white;
+    border-radius: 31px;
+}
+
+.nav {
+    padding: 60px 0;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__link {
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    padding: 8px 40px;
+    position: relative;
+    color: #ABABAB;
+}
+
+
+.nav__list li:hover .nav__link {
+    color: rgba(17, 52, 143, 0.96);
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.nav .subnav li:hover .nav__link {
+    color: rgba(17, 52, 143, 0.96);
+    text-shadow: 1px 0 0 currentColor;
+    background-color: #ccc;
+}
+
+.nav__list li {
+    position: relative;
+}
+
+.nav__list li:hover .nav__link::after {
+    display: block;
+}
+
+
+.nav__link::after {
+    display: none;
+    position: absolute;
+    content: "";
+    width: calc(100% - 80px);
+    height: 2px;
+    background: currentColor;
+    left: 40px;
+    border-radius: 99px;
+    bottom: 2px;
+}
+
+.nav__list li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover .nav__link {
+    background: red;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    box-shadow: 0 0 2px #888;
+    border: none;
+    outline: none;
+}
+
+.nav__list li:hover .subnav .nav__link::after {
+    display: none;
+}
+
+.subnav-link {
+        display: inline-block;
+        font-size: 2.2rem;
+        min-width: 270px;
+    }
+
+.footer {
+    background: #10375C;
+    padding: 60px 0;
+    margin-bottom: 0;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 160px
+}
+
+.footer__column:nth-child(3) .footer__item {
+    margin-top: 0
+}
+
+.footer__item + .footer__item,
+.footer__item-row + .footer__item-row {
+    margin-top: 60px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.3;
+    color: #FFFFFF;
+}
+
+    .footer__link:hover {
+        text-decoration: underline;
+    }
+
+.footer__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #2E80CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.footer__item-row {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer__item-subcribe {
+    width: 212.89px;
+    height: 46px;
+}
+
+.footer__item-input {
+    outline: none;
+    padding: 10px;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    background: transparent;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #9CA8B1;
+}
+
+.footer__item-btn {
+    display: inline-block;
+    min-width: 108px;
+    line-height: 47px;
+    cursor: pointer;
+    padding: 10px 21px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #FFFFFF;
+    background: #2E80CE;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+/* Đăng ký sửa chữa*/
+.repair__heading {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 48px;
+    color: #1F3447;
+    padding-left: 44px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 20px 53px 80px 86px
+}
+
+.content__item {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+
+.label {
+    min-width: 150px;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #000000;
+    position: relative;
+}
+
+.label::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../Images/star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 26px;
+    height: 20px;
+    left: -33px;
+    top: 50%;
+    transform: translateY(-63%)
+}
+
+.dropList,
+.content__item-input {
+        min-width: 465px;
+        padding: 4px 16px;
+        font-weight: 400;
+        font-size: 2.2rem;
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.79);
+        outline: none;
+    }
+
+.fileUpLoad {
+    padding: 0;
+}
+
+.input__time {
+    min-width: 283px;
+}
+
+.content__item-area {
+    resize: none;   
+}
+
+.note,
+.desc{
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.note {
+    display: block;
+    margin: 50px 0 14px;
+}
+
+.cta__control {
+    margin: 40px 40px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 50px;
+}
+
+.cta__btn {
+    min-width: 290px;
+    line-height: 60px;
+    background: #DBEAFE;
+    box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.12);
+    border-radius: 20px;
+    padding: 0 16px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.cta__btn--delete {
+    min-width: 255px;
+    color: white;
+    background-color: #E43958;
+}
+.cta__btn--save:hover,
+.cta__btn--delete:hover {
+    opacity: 0.8;
+}
+.cta__btn--save {
+    min-width: 255px;
+    color: #0F1720;
+}

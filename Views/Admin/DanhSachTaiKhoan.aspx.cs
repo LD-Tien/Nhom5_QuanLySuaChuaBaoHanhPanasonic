@@ -20,11 +20,11 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Admin
                 DataTable dt = GetDataFromDatabase();
 
                 // Lưu trữ DataTable trong ViewState
-                ViewState["DSDonSuaChua"] = dt;
+                ViewState["DSTaiKhoanNhanVien"] = dt;
 
                 // Gán dữ liệu cho GridView
-                gvDSDonSuaChua.DataSource = dt;
-                gvDSDonSuaChua.DataBind();
+                gvDSTaiKhoanNhanVien.DataSource = dt;
+                gvDSTaiKhoanNhanVien.DataBind();
             }
         }
 
@@ -32,53 +32,53 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Admin
         {
             // Tạo DataTable mới với các cột được yêu cầu
             DataTable dt = new DataTable();
-            dt.Columns.Add("Mã đơn sửa chữa", typeof(string));
-            dt.Columns.Add("Loại sửa chữa", typeof(string));
-            dt.Columns.Add("Ngày đến", typeof(DateTime));
-            dt.Columns.Add("Giờ hẹn", typeof(string));
-            dt.Columns.Add("Trạng thái đơn", typeof(string));
+            dt.Columns.Add("Mã tài khoản");
+            dt.Columns.Add("Tên tài khoản");
+            dt.Columns.Add("Tên nhân viên");
+            dt.Columns.Add("Quyền truy cập");
+            dt.Columns.Add("Trạng thái tài khoản");
 
             // Thêm các hàng vào DataTable
-            dt.Rows.Add("SC001", "Sửa lỗi phần mềm", new DateTime(2023, 4, 1), "08:00", "Hoàn thành");
-            dt.Rows.Add("SC002", "Thay thế linh kiện", new DateTime(2023, 4, 2), "09:30", "Đang sửa chữa");
-            dt.Rows.Add("SC003", "Sửa lỗi phần cứng", new DateTime(2023, 4, 3), "11:00", "Đang sửa chữa");
-            dt.Rows.Add("SC004", "Thay pin", new DateTime(2023, 4, 4), "13:30", "Chưa xác định");
-            dt.Rows.Add("SC005", "Sửa màn hình", new DateTime(2023, 4, 5), "15:00", "Hoàn thành");
-            dt.Rows.Add("SC006", "Thay bàn phím", new DateTime(2023, 4, 6), "16:30", "Đang sửa chữa");
-            dt.Rows.Add("SC007", "Sửa cổng sạc", new DateTime(2023, 4, 7), "08:30", "Hoàn thành");
-            dt.Rows.Add("SC008", "Thay camera", new DateTime(2023, 4, 8), "10:00", "Chưa xác định");
-            dt.Rows.Add("SC009", "Sửa loa", new DateTime(2023, 4, 9), "11:30", "Đang sửa chữa");
-            dt.Rows.Add("SC010", "Thay bộ nhớ", new DateTime(2023, 4, 10), "13:00", "Hoàn thành");
+            dt.Rows.Add("1", "NguyenVanA", "Nguyễn Văn A", "Quản trị viên", "Bình thường");
+            dt.Rows.Add("2", "TranThiB", "Trần Thị B", "Kỹ thuật viên", "Khóa");
+            dt.Rows.Add("3", "LeVanC", "Lê Văn C", "Kỹ thuật viên", "Bình thường");
+            dt.Rows.Add("4", "PhamThiD", "Phạm Thị D", "Kỹ thuật viên", "Bình thường");
+            dt.Rows.Add("5", "DoVanE", "Đỗ Văn E", "Kỹ thuật viên", "Khóa");
+            dt.Rows.Add("6", "NguyenThiF", "Nguyễn Thị F", "CSKH", "Bình thường");
+            dt.Rows.Add("7", "TranVanG", "Trần Văn G", "CSKH", "Khóa");
+            dt.Rows.Add("8", "LeThiH", "Lê Thị H", "CSKH", "Bình thường");
+            dt.Rows.Add("9", "PhamVanI", "Phạm Văn I", "CSKH", "Bình thường");
+            dt.Rows.Add("10", "DoThiK", "Đỗ Thị K", "Quản lý", "Khóa");
 
             return dt;
         }
 
-        protected void gvDSDonSuaChua_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        protected void gvDSTaiKhoanNhanVien_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
-            gvDSDonSuaChua.PageIndex = e.NewPageIndex;
+            gvDSTaiKhoanNhanVien.PageIndex = e.NewPageIndex;
 
             // Lấy DataTable từ ViewState
-            DataTable dt = (DataTable)ViewState["DSDonSuaChua"];
+            DataTable dt = (DataTable)ViewState["DSTaiKhoanNhanVien"];
 
             // Gán dữ liệu cho GridView từ DataTable lấy từ ViewState
-            gvDSDonSuaChua.DataSource = dt;
-            gvDSDonSuaChua.DataBind();
+            gvDSTaiKhoanNhanVien.DataSource = dt;
+            gvDSTaiKhoanNhanVien.DataBind();
         }
 
-        protected void gvDSDonSuaChua_RowCommand(object sender, GridViewCommandEventArgs e)
+        protected void gvDSTaiKhoanNhanVien_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-            Debug.WriteLine("Sự kiện gvDSDonSuaChua_PageIndexChanging đã được kích hoạt");
-
-
-
             if (e.CommandName == "ViewDetail")
             {
                 // Lấy đơn sửa chữa tương ứng với ID được truyền vào CommandArgument
                 string maDonSuaChua = e.CommandArgument.ToString();
 
-                // Thực hiện chuyển hướng đến trang xem chi tiết đơn sửa chữa với đơn sửa chữa có ID là dsID
-                Response.Redirect("ChiTietDonSuaChua.aspx?MaDonSuaChua=" + maDonSuaChua);
+                Response.Redirect("CapNhatTaiKhoanNhanVien.aspx?MaTaiKhoan=" + maDonSuaChua);
             }
+        }
+
+        protected void btnThemTKNV_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ThemTaiKhoanNhanVien.aspx");
         }
     }
 }

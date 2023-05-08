@@ -67,16 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\UserStyle.css" />
+    <Content Include="Images\footer_confirm.png" />
+    <Content Include="Images\icon_fb.png" />
+    <Content Include="Images\icon_phone.png" />
+    <Content Include="Images\logo-panasonic.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\star.png" />
+    <Content Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx" />
     <Content Include="Views\Admin\DanhSachTaiKhoan.aspx" />
+<<<<<<< HEAD
     <Content Include="Views\Login\Login.aspx" />
     <Content Include="Views\Login\Logup.aspx" />
+=======
+    <Content Include="Views\Admin\ThemTaiKhoanNhanVien.aspx" />
+>>>>>>> 5443466b0980df4d6f3e4f217c52d7f938a707ea
     <Content Include="Views\NVCSKH\ChiTietDonBaoHanh.aspx" />
     <Content Include="Views\NVCSKH\ChiTietDonSuaChua.aspx" />
     <Content Include="Views\NVCSKH\DanhSachDonBaoHanh.aspx" />
     <Content Include="Views\NVCSKH\DanhSachDonSuaChua.aspx" />
+<<<<<<< HEAD
     <Content Include="Images\logo-panasonic.png" />
     <Content Include="Views\NVKT\DanhSachDonBaoHanh.aspx" />
     <Content Include="Views\NVKT\DanhSachDonSuaChua.aspx" />
+=======
+    <Content Include="Views\User\ChiTietBaoHanh.aspx" />
+    <Content Include="Views\User\ChiTietSuaChua.aspx" />
+    <Content Include="Views\User\DangKyBaoHanh.aspx" />
+    <Content Include="Views\User\DangKySuaChua.aspx" />
+>>>>>>> 5443466b0980df4d6f3e4f217c52d7f938a707ea
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +107,13 @@
     <Compile Include="Views\Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx.cs">
+      <DependentUpon>CapNhatTaiKhoanNhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx.designer.cs">
+      <DependentUpon>CapNhatTaiKhoanNhanVien.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Admin\DanhSachTaiKhoan.aspx.cs">
       <DependentUpon>DanhSachTaiKhoan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,6 +121,7 @@
     <Compile Include="Views\Admin\DanhSachTaiKhoan.aspx.designer.cs">
       <DependentUpon>DanhSachTaiKhoan.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Views\Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -107,6 +135,14 @@
     </Compile>
     <Compile Include="Views\Login\Logup.aspx.designer.cs">
       <DependentUpon>Logup.aspx</DependentUpon>
+=======
+    <Compile Include="Views\Admin\ThemTaiKhoanNhanVien.aspx.cs">
+      <DependentUpon>ThemTaiKhoanNhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ThemTaiKhoanNhanVien.aspx.designer.cs">
+      <DependentUpon>ThemTaiKhoanNhanVien.aspx</DependentUpon>
+>>>>>>> 5443466b0980df4d6f3e4f217c52d7f938a707ea
     </Compile>
     <Compile Include="Views\NVCSKH\ChiTietDonBaoHanh.aspx.cs">
       <DependentUpon>ChiTietDonBaoHanh.aspx</DependentUpon>
@@ -144,6 +180,7 @@
     <Compile Include="Views\NVCSKH\NVCSKH.Master.designer.cs">
       <DependentUpon>NVCSKH.Master</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Views\NVKT\DanhSachDonBaoHanh.aspx.cs">
       <DependentUpon>DanhSachDonBaoHanh.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -164,6 +201,42 @@
     </Compile>
     <Compile Include="Views\NVKT\NVKT.Master.designer.cs">
       <DependentUpon>NVKT.Master</DependentUpon>
+=======
+    <Compile Include="Views\User\ChiTietBaoHanh.aspx.cs">
+      <DependentUpon>ChiTietBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\ChiTietBaoHanh.aspx.designer.cs">
+      <DependentUpon>ChiTietBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\ChiTietSuaChua.aspx.cs">
+      <DependentUpon>ChiTietSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\ChiTietSuaChua.aspx.designer.cs">
+      <DependentUpon>ChiTietSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\DangKyBaoHanh.aspx.cs">
+      <DependentUpon>DangKyBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\DangKyBaoHanh.aspx.designer.cs">
+      <DependentUpon>DangKyBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\DangKySuaChua.aspx.cs">
+      <DependentUpon>DangKySuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\DangKySuaChua.aspx.designer.cs">
+      <DependentUpon>DangKySuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\Users.Master.cs">
+      <DependentUpon>Users.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\Users.Master.designer.cs">
+      <DependentUpon>Users.Master</DependentUpon>
+>>>>>>> 5443466b0980df4d6f3e4f217c52d7f938a707ea
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -172,7 +245,11 @@
     </None>
     <Content Include="Views\NVCSKH\NVCSKH.Master" />
     <Content Include="Views\Admin\Admin.Master" />
+<<<<<<< HEAD
     <Content Include="Views\NVKT\NVKT.Master" />
+=======
+    <Content Include="Views\User\Users.Master" />
+>>>>>>> 5443466b0980df4d6f3e4f217c52d7f938a707ea
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
