@@ -3,7 +3,7 @@
       <link rel="stylesheet" href="../../CSS/UserStyle.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <h2 class="repair__heading" >Cập nhật sửa chữa</h2>
+     <h2 class="heading" >Cập nhật sửa chữa</h2>
     <div class="content">
         <div class="row">
             <div class="col__left">
@@ -24,9 +24,8 @@
                     </asp:DropDownList>
                </div>
                <div class="content__item">
-                    <label class="label"  for="">Ngày đến</label>
-                  <input type="text" class="content__item-input input__time" name="txtDate" id="txtDate1" value="" />
-                   <asp:Calendar ID="Calendar1" runat="server" class="timer" onselecteddatechanged="Calendar1_SelectedDateChanged"></asp:Calendar>
+                   <label class="label"  for="">Ngày đến</label>
+                    <asp:TextBox type="date" ID="txtTime" CssClass="content__item-tbox tb__time" runat="server"></asp:TextBox>
                </div>
                <div class="content__item">
                     <label class="label"  for="">Giờ hẹn</label>
@@ -40,23 +39,23 @@
             <div class="col__right">
                <div class="content__item">
                    <label class="label"  for="sdt">Số điện thoại</label>
-                   <input type="text" class="content__item-input"  name="sdt" id="sdt" value="0989878787" />
+                   <asp:TextBox ID="TextBox1" runat="server" class="content__item-tbox">0989878787</asp:TextBox>
                </div> 
                <div class="content__item">
                    <label class="label"  for="Địa chỉ">Địa chỉ</label>
-                   <input type="text" class="content__item-input" name="Địa chỉ" id="Địa chỉ" value="81 Đống Đa, Đà Nẵng" />
+                   <asp:TextBox ID="TextBox2" runat="server" class="content__item-tbox">81 Đống Đa, Đà Nẵng</asp:TextBox>
                </div>
                <div class="content__item">
                    <label class="label"  for="mota">Mô tả</label>
-                   <textarea class="content__item-input content__item-area" id="inputGhiChu" rows="4" placeholder="Nhập nội dung"></textarea>
+                   <asp:TextBox ID="txtTextArea" CssClass="content__item-tbox tbox__tboxmul" runat="server" TextMode="MultiLine" Rows="3" Columns="20"></asp:TextBox>                   
                </div>
             </div>
        </div> 
         <span class="note">** Chú thích:</span>
         <p class="desc">Các chi phí dịch vụ sửa chữa có thể phát sinh</p>
         <div class="cta__control">
-            <a href="#!" class ="cta__btn cta__btn--delete">Hủy</a>
-            <a href="#!" class="cta__btn cta__btn--save">Lưu</a>
+           <asp:LinkButton runat="server" Text="Hủy" CssClass="cta__btn cta__btn--delete"  />
+            <asp:LinkButton runat="server" Text="Lưu" CSSClass="cta__btn cta__btn--save"  />
         </div>
     </div>
 </asp:Content>
