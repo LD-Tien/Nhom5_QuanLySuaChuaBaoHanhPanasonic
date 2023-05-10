@@ -6,7 +6,7 @@
     
     <div class="row g-3 mb-5">
         <h5 class="col-md-6 mt-2">Thông tin tài khoản</h5>
-        <h5 class="col-md-6 mt-2 text-end">Mã tài khoản: 0000001</h5>
+        <h5 class="col-md-6 mt-2 text-end"><asp:Label ID="maTK" runat="server" Text="Mã tài khoản: 0000001"></asp:Label></h5>
         <div class="col-md-4">
             <label for="lbTenTaiKhoan" class="form-label">Tên tài khoản<span style="color: red">*</span></label>
             <asp:TextBox ID="txtTenTaiKhoan" runat="server" CssClass="form-control">QL00001</asp:TextBox>

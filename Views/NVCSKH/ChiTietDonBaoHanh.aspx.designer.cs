@@ -13,6 +13,15 @@ namespace Nhom5_QuanLySuaChuaBaoHanh {
     public partial class ChiTietDonBaoHanh {
         
         /// <summary>
+        /// maDon control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label maDon;
+        
+        /// <summary>
         /// txtTenKhachHang control.
         /// </summary>
         /// <remarks>
@@ -58,13 +67,13 @@ namespace Nhom5_QuanLySuaChuaBaoHanh {
         protected global::System.Web.UI.WebControls.TextBox txtNgayDen;
         
         /// <summary>
-        /// inputGioHen control.
+        /// txtGioHen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox inputGioHen;
+        protected global::System.Web.UI.WebControls.TextBox txtGioHen;
         
         /// <summary>
         /// txtTenDichVu control.

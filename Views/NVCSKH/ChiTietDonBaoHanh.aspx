@@ -6,7 +6,7 @@
     <h2 class="mb-5">Duyệt đơn bảo hành</h2>
     <div class="row g-3 p-3" style="border: 1px solid black; border-radius: 10px">
         <h5 class="col-md-6 mt-2">Thông tin đơn</h5>
-        <h5 class="col-md-6 mt-2 text-end">Mã đơn: 0000001</h5>
+        <h5 class="col-md-6 mt-2 text-end"><asp:Label ID="maDon" runat="server" Text="Mã đơn: 0000001"></asp:Label></h5>
         <div class="col-md-4">
             <label for="lbTenKhachHang" class="form-label">Tên khách hàng</label>
             <asp:TextBox ID="txtTenKhachHang" CssClass="form-control" runat="server" Enabled="false">Lê Đức Tiên</asp:TextBox>
@@ -32,7 +32,7 @@
 
         <div class="col-md-4">
             <label for="lbGioHen" class="form-label">Giờ hẹn</label>
-            <asp:TextBox ID="inputGioHen" CssClass="form-control" runat="server" Enabled="false">15:00-16:00</asp:TextBox>
+            <asp:TextBox ID="txtGioHen" CssClass="form-control" runat="server" Enabled="false">15:00-16:00</asp:TextBox>
         </div>
 
         <div class="col-md-4">
