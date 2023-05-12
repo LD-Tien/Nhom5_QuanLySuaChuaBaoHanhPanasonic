@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Logup.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.Login.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.Login.WebForm2" %>
 
 <!DOCTYPE html>
 
@@ -42,10 +42,10 @@
                         <div class="col-sm-10">
                             <div class="row g-3">
                                 <div class="col-sm-7">
-                                    <input type="text" class="form-control" placeholder="Pasword" aria-label="Pasword">
+                                    <input type="text" class="form-control" placeholder="" aria-label="Pasword">
                                 </div>
                                 <div class="col-sm">
-                                    <input type="text" class="form-control" placeholder="Reset password" aria-label="Reset password">
+                                    <input type="text" class="form-control" placeholder="nhập lại mật khẩu" aria-label="Reset password">
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="button">
-                        <asp:Button class="btn btn-info" ID="btnhuy" runat="server" Text="Hủy" />
+                        <asp:Button class="btn btn-info" ID="btnhuy" runat="server" Text="Hủy" OnClick="btnhuy_Click" />
                         <asp:Button class="btn btn-danger" ID="btndangky" runat="server" Text="Đăng Ký" />
                      </div>
                     <img src="../../Images/panalogup1.jpg" alt="Alternate Text" class="auto-style2 mt-3" />

@@ -34,17 +34,17 @@
                     <div class="form-login">
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Tên tài khoản<span style="color: red">*</span></label>
-                          <input type="email" class="form-control" id="name" placeholder="name">
+                          <input type="text" class="form-control" id="name" placeholder="name">
                         </div>
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Mật khẩu<span style="color: red">*</span></label>
-                          <input type="email" class="form-control" id="password" placeholder="password">
+                          <input type="password" class="form-control" id="password" placeholder="password">
                         </div>
                         <div class="mb-3">
                             <asp:Button class="btn btn-primary" ID="btnlogin" runat="server" Text="Đăng nhập" />
                         </div>
                         <div class="mb-3">
-                            <asp:Button class="btn btn-danger" ID="btnlogup" runat="server" Text="Đăng ký" />
+                            <asp:Button class="btn btn-danger" ID="btnlogup" runat="server" Text="Đăng ký" OnClick="btnlogup_Click" />
                         </div>
                     </div>
                 </div>

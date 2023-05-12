@@ -13,5 +13,10 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Login
         {
 
         }
+
+        protected void btnlogup_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Signup.aspx");
+        }
     }
 }
