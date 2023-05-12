@@ -78,7 +78,7 @@
     <Content Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx" />
     <Content Include="Views\Admin\DanhSachTaiKhoan.aspx" />
     <Content Include="Views\Login\Login.aspx" />
-    <Content Include="Views\Login\Logup.aspx" />
+    <Content Include="Views\Login\Signup.aspx" />
     <Content Include="Views\Admin\ThemTaiKhoanNhanVien.aspx" />
     <Content Include="Views\NVCSKH\ChiTietDonBaoHanh.aspx" />
     <Content Include="Views\NVCSKH\ChiTietDonSuaChua.aspx" />
@@ -122,12 +122,12 @@
     <Compile Include="Views\Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Login\Logup.aspx.cs">
-      <DependentUpon>Logup.aspx</DependentUpon>
+    <Compile Include="Views\Login\Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Login\Logup.aspx.designer.cs">
-      <DependentUpon>Logup.aspx</DependentUpon>
+    <Compile Include="Views\Login\Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Admin\ThemTaiKhoanNhanVien.aspx.cs">
       <DependentUpon>ThemTaiKhoanNhanVien.aspx</DependentUpon>
