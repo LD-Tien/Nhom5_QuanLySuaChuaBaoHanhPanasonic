@@ -31,6 +31,33 @@ a {
     background: linear-gradient(to bottom, rgba(242, 242, 242, 0.73) 40%, white 40%)
 }*/
 
+.userMaster__wrapper .nav-item.dropdown {
+    min-width: 153px;
+}
+
+.userMaster__wrapper .btn {
+    min-width: 152px;
+    line-height: 37px;
+    padding: 0 12px;
+    color: #fff;
+    font-size: 1.6rem;
+    background: #0d6efd
+}
+
+.userMaster__wrapper .dropdown-toggle::after {
+    margin-left: 20px;
+}
+
+.userMaster__wrapper .dropdown-menu {
+    min-width: 170px;
+}
+
+.userMaster__wrapper .dropdown-item {
+    font-size: 1.6rem;
+    color: inherit;
+    margin-top: 10px;
+}
+
 .header__top {
     height: 115px;
     padding: 15px 0;
@@ -141,9 +168,9 @@ a {
     left: -29px;
 }
 
-
-
-
+.userMaster__wrapper .subnav{
+    padding-left:0;
+}
 
 /* Đăng ký sửa chữa*/
 .heading {
@@ -152,7 +179,8 @@ a {
     font-size: 3.5rem;
     line-height: 48px;
     color: #000958;
-    padding-left: 44px;
+    padding-left: 52px;
+    padding-bottom: 10px;
 }
 
 .row {
@@ -285,15 +313,20 @@ a {
 
 .grv__ds {
     margin: 0 auto;
-    min-width: 1140px;
+    min-width: 900px;
+    width: 1200px;
     background: #fff;
-    boder-none;
+    border: 1px solid #ccc;
 }
 
-    .grv__ds tr {
-        background: #ccc;
+.grv__ds tr {
+        background: #fff;
         margin-bottom: 10px;
-    }
+}
+
+.grv__ds tr:nth-child(even) {
+    background: #ccc;
+}
 
 .grv__ds th {
         padding: 4px 8px;
@@ -307,20 +340,14 @@ a {
 }
 
 .grv__ds th, .grv__ds td {
-        /*border-top: 1px solid #666;*/
-        border:none;
+        border-top: 1px solid #ccc;
         outline: none;
-}
+    }
 
 .grv__ds td:nth-child(4) {
     max-width: 186px
 }
 
-.grv__ds td:nth-child(7),
-.grv__ds td:nth-child(8),
-.grv__ds td:nth-child(3) {
-        max-width: 210px;
-    }
 .grv__ds td {
         padding: 24px 8px;
         background-color: #fff;

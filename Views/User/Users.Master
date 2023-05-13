@@ -14,6 +14,8 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <form class="userMaster__wrapper" id="form1" runat="server">
+=======
     <form id="form1" runat="server">
         <nav class="navbar bg-body-tertiary" data-bs-theme="light">
             <div class="container">
@@ -58,13 +60,14 @@
                 <nav class="nav">
                     <ul class="nav__list">
                         <li>
-                            <a href="!" class="nav__link">Trang chủ</a>
+                            <%--<a href="!" class="nav__link">Trang chủ</a>--%>
+                        <asp:LinkButton ID="LinkButtonTrangChu" runat="server" CssClass="nav__link nav-link" OnClick="LinkButtonTrangChu_Click">Trang chủ</asp:LinkButton>
                         </li>
                         <li>
                             <a href="!" class="nav__link">Chính sách bảo hành</a>
                         </li>
                         <li>
-                            <a href="!" class="nav__link">Hỗ trợ</a>
+                            <a href="#!" class="nav__link">Hỗ trợ</a>
                             <ul class="subnav">
                                 <li><a href="/Views/User/DanhSachSuaChua.aspx" class="nav__link subnav-link">Đăng ký sửa chữa</a></li>
                                 <li><a href="/Views/User/DanhSachBaoHanh.aspx" class="nav__link subnav-link">Đăng ký bảo hành</a></li>
@@ -78,7 +81,7 @@
             </div>
         </header>
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
             </asp:ContentPlaceHolder>
         </div>
 
