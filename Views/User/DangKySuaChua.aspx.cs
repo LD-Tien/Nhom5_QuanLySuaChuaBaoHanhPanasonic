@@ -13,5 +13,9 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User
         {
 
         }
+        protected void RedirectToDanhSachSuaChua(object sender, EventArgs e)
+        {
+            Response.Redirect("DanhSachSuaChua.aspx");
+        }
     }
 }

@@ -6,62 +6,62 @@
     <h2 class="mb-5">Duyệt đơn sửa chữa</h2>
     <div class="row g-3 p-3" style="border: 1px solid black; border-radius: 10px">
         <h5 class="col-md-6 mt-2">Thông tin đơn</h5>
-        <h5 class="col-md-6 mt-2 text-end">Mã đơn: 0000001</h5>
+        <h5 class="col-md-6 mt-2 text-end"><asp:Label ID="maDon" runat="server" Text="Mã đơn: 0000001"></asp:Label></h5>
         <div class="col-md-4">
-            <label for="inputTenKhachHang" class="form-label">Tên khách hàng</label>
-            <input type="text" class="form-control" id="inputTenKhachHang" disabled value="Lê Đức Tiên">
+            <label for="lbTenKhachHang" class="form-label">Tên khách hàng</label>
+            <asp:TextBox ID="txtTenKhachHang" CssClass="form-control" runat="server" Enabled="false">Lê Đức Tiên</asp:TextBox>
         </div>
 
         <div class="col-md-4">
-            <label for="inputSoDienThoai" class="form-label">Số điện thoại</label>
-            <input type="tel" class="form-control" id="inputSoDienThoai" disabled value="0123412341">
+            <label for="lbSoDienThoai" class="form-label">Số điện thoại</label>
+            <asp:TextBox ID="txtSoDienThoai" CssClass="form-control" runat="server"  Enabled="false">0123412341</asp:TextBox>
         </div>
 
         <div class="col-md-4">
             <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail" disabled value="ldt@gmail.com">
+            <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server"  Enabled="false" type="email">ldt@gmail.com</asp:TextBox>
         </div>
         <div class="col-md-12">
-            <label for="inputDiaChi" class="form-label">Địa chỉ</label>
-            <input type="text" class="form-control" id="inputDiaChi" disabled value="251 Hoàng Diệu, Nam Dương, Hải Châu, Đà Nẵng 550000">
+            <label for="lbDiaChi" class="form-label">Địa chỉ</label>
+            <asp:TextBox ID="txtDiaChi" CssClass="form-control" runat="server" Enabled="false">251 Hoàng Diệu, Nam Dương, Hải Châu, Đà Nẵng 550000</asp:TextBox>
         </div>
         <div class="col-md-6">
-            <label for="inputNgayDen" class="form-label">Ngày đến</label>
-            <input type="text" class="form-control" id="inputNgayDen" disabled value="12/05/2023">
+            <label for="lbNgayDen" class="form-label">Ngày đến</label>
+            <asp:TextBox ID="txtNgayDen" CssClass="form-control" runat="server" Enabled="false">12/05/2023</asp:TextBox>
         </div>
 
         <div class="col-md-6">
-            <label for="inputGioHen" class="form-label">Giờ hẹn</label>
-            <input type="text" class="form-control" id="inputGioHen" disabled value="15:00-16:00">
+            <label for="lbGioHen" class="form-label">Giờ hẹn</label>
+            <asp:TextBox ID="txtGioHen" CssClass="form-control" runat="server" Enabled="false">15:00-16:00</asp:TextBox>
         </div>
 
         <div class="col-md-4">
-            <label for="inputTenDichVu" class="form-label">Tên dịch vụ</label>
-            <input type="text" class="form-control" id="inputTenDichVu" disabled value="Sửa chữa tủ lạnh">
+            <label for="lbTenDichVu" class="form-label">Tên dịch vụ</label>
+            <asp:TextBox ID="txtTenDichVu" CssClass="form-control" runat="server" Enabled="false">Sửa chữa tủ lạnh</asp:TextBox>
         </div>
 
         <div class="col-md-4">
-            <label for="inputLoaiSuaChua" class="form-label">Loại sửa chữa</label>
-            <input type="text" class="form-control" id="inputLoaiSuaChua" disabled value="Xử lý sự cố không lạnh">
+            <label for="lbLoaiSuaChua" class="form-label">Loại sửa chữa</label>
+            <asp:TextBox ID="txtLoaiSuaChua" CssClass="form-control" runat="server" Enabled="false">Xử lý sự cố không lạnh</asp:TextBox>
         </div>
         
         <div class="col-md-4">
-            <label for="inputGiaTien" class="form-label">Giá tiền</label>
+            <label for="lbGiaTien" class="form-label">Giá tiền</label>
             <div class="input-group">
-                <input type="text" class="form-control" id="inputGiaTien" disabled value="ldt@gmail.com">
+                <asp:TextBox ID="txtGiaTien" CssClass="form-control" runat="server" Enabled="false">350000</asp:TextBox>
                 <span class="input-group-text">VNĐ</span>
             </div>
 
         </div>
         <div class="col-md-12">
-            <label for="inputGhiChu" class="form-label">Ghi chú của khách hàng</label>
-            <textarea class="form-control" id="inputGhiChu" rows="3" disabled></textarea>
+            <label for="lbGhiChu" class="form-label">Ghi chú của khách hàng</label>
+            <asp:TextBox ID="txtGhiChu" runat="server" CssClass="form-control" Rows="3" TextMode="MultiLine" Enabled="false"></asp:TextBox>
         </div>
         <h5 class="col-md-6 mt-4">Duyệt</h5>
         <h5 class="col-md-6 mt-4">Từ chối sửa chữa</h5>
         <div class="col-md-6">
-            <asp:Label ID="inputNVKTLabel" runat="server" AssociatedControlID="inputNVKT" CssClass="form-label">Nhân viên kỹ thuật <span style="color: red">*</span></asp:Label>
-            <asp:DropDownList ID="inputNVKT" runat="server" CssClass="form-select">
+            <label for="lbNVKT" class="form-label">Nhân viên kỹ thuật <span style="color: red">*</span></label>
+            <asp:DropDownList ID="ddlNVKT" runat="server" CssClass="form-select">
                 <asp:ListItem Text="Nguyễn Văn A - Số đơn đang xử lý 3" Selected="True"></asp:ListItem>
                 <asp:ListItem Text="..."></asp:ListItem>
             </asp:DropDownList>
