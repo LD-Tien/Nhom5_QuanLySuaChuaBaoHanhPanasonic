@@ -31,13 +31,22 @@ namespace Nhom5_QuanLySuaChuaBaoHanh {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// BtnSearch control.
+        /// LinkButtonTrangChu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnSearch;
+        protected global::System.Web.UI.WebControls.LinkButton LinkButtonTrangChu;
+        
+        /// <summary>
+        /// LinkButtonCSBH control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButtonCSBH;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

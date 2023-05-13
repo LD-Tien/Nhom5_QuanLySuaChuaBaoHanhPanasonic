@@ -5,7 +5,8 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <%--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">--%>
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -16,11 +17,17 @@
         <div class="container">
 
             <img alt="" class="navbar-brand w-25" src="../../Images/logo-panasonic.png" />
-            <div class="d-flex">
-                <input class="form-control me-2" name="search" type="search" placeholder="Search" aria-label="Search">
-                <asp:Button ID="BtnSearch" CssClass="btn btn-outline-primary" runat="server" Text="Search" />
-
-            </div>
+            <div class="nav-item dropdown">
+                   <a class="dropdown-toggle btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">leductien (CSKH)</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Thông tin người dùng</a></li>
+                        <li><a class="dropdown-item" href="#">Thông báo</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="/Views/Login/Login.aspx">Đăng xuất</a></li>
+                    </ul>
+                </div>
         </div>
     </nav>
     <div class="container">
@@ -29,13 +36,16 @@
             <div class="col-12">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="DanhSachDonSuaChua.aspx">Trang chủ</a>
+                        <asp:LinkButton ID="LinkButtonTrangChu" runat="server" CssClass="nav-link" OnClick="LinkButtonTrangChu_Click">Trang chủ</asp:LinkButton>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Views/NVCSKH/DanhSachDonSuaChua.aspx">Duyệt đơn sửa chữa</a>
+                        <asp:LinkButton ID="LinkButtonCSBH" runat="server" CssClass="nav-link">Chính sách bảo hành</asp:LinkButton>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="DanhSachDonBaoHanh.aspx">Duyệt đơn bảo hành</a>
+                        <a class="nav-link" href="/Views/NVCSKH/DanhSachDonSuaChua.aspx">Duyệt đơn sửa chữa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Views/NVCSKH/DanhSachDonBaoHanh.aspx">Duyệt đơn bảo hành</a>
                     </li>
                 </ul>
             </div>
@@ -50,5 +60,6 @@
     </div>
     </form>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<%--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>--%>
+<script src="../../bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
 </html>
