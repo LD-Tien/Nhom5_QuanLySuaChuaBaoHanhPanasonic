@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="button">
-                        <asp:Button class="btn btn-info" ID="btnhuy" runat="server" Text="Hủy" OnClick="btnhuy_Click" />
+                        <asp:Button class="btn btn-info" ID="btnhuy" runat="server" Text="Đăng nhập" OnClick="btnhuy_Click" />
                         <asp:Button class="btn btn-danger" ID="btndangky" runat="server" Text="Đăng Ký" />
                      </div>
                     <img src="../../Images/panalogup1.jpg" alt="Alternate Text" class="auto-style2 mt-3" />

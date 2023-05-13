@@ -18,5 +18,15 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Login
         {
             Response.Redirect("Signup.aspx");
         }
+
+        protected void btnlogin_Click(object sender, EventArgs e)
+        {
+            string tenTK = txtTenTaiKhoan.Text;
+            string matKhau = txtMatKhau.Text;
+            if(tenTK.Equals("kh") && matKhau.Equals("kh"))
+            {
+                Response.Redirect("/Views/TrangChu.aspx?mp=../Views/User/Users.master");
+            }
+        }
     }
 }

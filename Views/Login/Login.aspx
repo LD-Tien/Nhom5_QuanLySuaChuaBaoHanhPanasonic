@@ -25,7 +25,7 @@
 <body>  
     <form id="form1" runat="server">
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-4">
                     <img src="../../Images/panalogin.jpg" alt="Alternate Text" class="auto-style1" />
                 </div>
@@ -34,14 +34,14 @@
                     <div class="form-login">
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Tên tài khoản<span style="color: red">*</span></label>
-                          <input type="text" class="form-control" id="name" placeholder="name">
+                          <asp:TextBox ID="txtTenTaiKhoan" runat="server" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="mb-3">
                           <label for="exampleFormControlInput1" class="form-label">Mật khẩu<span style="color: red">*</span></label>
-                          <input type="password" class="form-control" id="password" placeholder="password">
+                          <asp:TextBox ID="txtMatKhau" TextMode="Password" runat="server" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="mb-3">
-                            <asp:Button class="btn btn-primary" ID="btnlogin" runat="server" Text="Đăng nhập" />
+                            <asp:Button class="btn btn-primary" ID="btnlogin" runat="server" Text="Đăng nhập" OnClick="btnlogin_Click" />
                         </div>
                         <div class="mb-3">
                             <asp:Button class="btn btn-danger" ID="btnlogup" runat="server" Text="Đăng ký" OnClick="btnlogup_Click" />
