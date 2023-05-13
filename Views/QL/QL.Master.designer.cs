@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Nhom5_QuanLySuaChuaBaoHanh {
+namespace Nhom5_QuanLySuaChuaBaoHanh.Views.QL {
     
     
-    public partial class NVCSKH {
+    public partial class QL {
         
         /// <summary>
         /// head control.
@@ -29,24 +29,6 @@ namespace Nhom5_QuanLySuaChuaBaoHanh {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// LinkButtonTrangChu control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButtonTrangChu;
-        
-        /// <summary>
-        /// LinkButtonCSBH control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButtonCSBH;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

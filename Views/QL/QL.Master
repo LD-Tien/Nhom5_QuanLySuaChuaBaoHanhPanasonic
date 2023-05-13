@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QL.master.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.QL.QL" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/index1.css">
+    <link rel="stylesheet" href="../../CSS/index2.css">
+    <link rel="stylesheet" href="../../CSS/index3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+      <h1>  Panasonic</h1>
+        <form class="search-form">
+          <input type="text" placeholder="Tìm kiếm">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div class="inffo">
+            <div class="info1"><i class="fa-solid fa-circle-user"></i></div>
+            <h3>PhuongVy</h3>
+        </div>
+      </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <div class="footer1">
+            Về PANASONIC Việt Nam <br> <br> <br> <br> <br> <br>
+            Sơ đồ Web
+        </div>
+        <div class="footer2">
+            Đăng ký bảo hành đại lý <br> <br><br> <br> <br> <br>
+            Điều khoản sử dụng
+        </div>
+        <div class="footer3"> <i class="fa-solid fa-phone"></i>18001593
+            <br><br><br><br><br><br>
+            <i class="fa-solid fa-truck-fast"></i>  Thiết bị PANASONIC
+        </div>
+      </footer>
+</body>
+    <script>
+        // Lấy các phần tử trong header
+        const header = document.querySelector('header');
+        const logo = document.querySelector('.logo');
+        const searchForm = document.querySelector('.search-form');
+        const searchInput = document.querySelector('input[type="text"]');
+        const searchButton = document.querySelector('button[type="submit"]');
+      
+        // Thêm sự kiện khi di chuột qua phần tử logo
+        logo.addEventListener('mouseover', () => {
+          logo.style.color = '#fff';
+          logo.style.backgroundColor = '#0072c6';
+        });
+      
+        logo.addEventListener('mouseout', () => {
+          logo.style.color = '#0072c6';
+          logo.style.backgroundColor = '#fff';
+        });
+      
+        // Thêm sự kiện khi người dùng nhập từ khóa tìm kiếm vào thanh tìm kiếm
+        searchInput.addEventListener('focus', () => {
+          searchForm.style.backgroundColor = '#f2f2f2';
+        });
+      
+        searchInput.addEventListener('blur', () => {
+          searchForm.style.backgroundColor = '#fff';
+        });
+      
+        // Thêm sự kiện khi người dùng click vào nút tìm kiếm
+        searchButton.addEventListener('click', (event) => {
+          event.preventDefault();
+          const searchTerm = searchInput.value;
+          alert(`Bạn đang tìm kiếm "${searchTerm}"`);
+        });
+      </script>
+</html>

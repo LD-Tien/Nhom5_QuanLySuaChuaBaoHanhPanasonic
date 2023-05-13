@@ -6,7 +6,7 @@
     <h2 class="heading">Đăng ký sửa chữa</h2>
     <div class="content">
         <div class="row">
-            <div class="col__left">
+            <div class="col-md-6">
                 <div class="content__item">
                     <label class="label" for="">Loại sản phẩm</label>
                     <asp:DropDownList class="dropList" ID="DropDownList1" runat="server">
@@ -39,7 +39,7 @@
                     </asp:DropDownList>
                </div>       
             </div> 
-            <div class="col__right">
+            <div class="col-md-6">
                <div class="content__item">
                    <label class="label"  for="sdt">Số điện thoại</label>
                    <asp:TextBox ID="TextBox1" runat="server" class="content__item-tbox"></asp:TextBox>
