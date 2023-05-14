@@ -23,10 +23,23 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Login
         {
             string tenTK = txtTenTaiKhoan.Text;
             string matKhau = txtMatKhau.Text;
-            if(tenTK.Equals("kh") && matKhau.Equals("kh"))
+            if (tenTK.Equals("kh") && matKhau.Equals("kh"))
             {
                 Response.Redirect("/Views/TrangChu.aspx?mp=../Views/User/Users.master");
             }
+            else if (tenTK.Equals("ktv") && matKhau.Equals("ktv123"))
+                {
+                Response.Redirect("../NVKT/DanhSachDonSuaChua.aspx");
+                }
+                else if (tenTK.Equals("nvcskh") && matKhau.Equals("nvcskh123"))
+                    {
+                        Response.Redirect("../NVCSKH/DanhSachDonSuaChua.aspx");
+                    }
+                    else if (tenTK.Equals("ql") && matKhau.Equals("ql123"))
+                    {
+                        Response.Redirect("../QL/CapNhatLoaiSuaChua.aspx");
+                    }
+
         }
     }
 }
