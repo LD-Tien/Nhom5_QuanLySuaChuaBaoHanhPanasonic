@@ -1,16 +1,27 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/User/Users.Master" AutoEventWireup="true" CodeBehind="DanhSachSuaChua.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.User.DanhSachSuaChua" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
       <link rel="stylesheet" href="../../CSS/UserStyle.css">
+    <style>
+             .nav__link1 {
+                 font-size:2.1rem;
+             }
+
+            .subnav-link {
+                display: inline-block;
+                font-size: 1.8rem;
+                min-width: 270px;
+            }
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" >
     <div class="container" style="margin-bottom: 100px; min-height: 350px">
         <h3 class="heading">Đơn sửa chữa</h3>
         <asp:GridView ID="gvDSDonSuaChua" class="grv__ds" runat="server" AutoGenerateColumns="False" AllowPaging="True" PageSize="5" >
             <Columns>
-                <asp:BoundField DataField="STT" HeaderText="STT" ItemStyle-CssClass="col-md-2" ItemStyle-Width="80px">
+                <asp:BoundField DataField="STT" HeaderText="Mã đơn" ItemStyle-CssClass="col-md-2" ItemStyle-Width="100px">
 <ItemStyle CssClass="col-md-2"></ItemStyle>
                 </asp:BoundField>
-                <asp:BoundField DataField="LoaiSanPham" HeaderText="Loại sản phẩm" ItemStyle-Width="160px" />
+                <asp:BoundField DataField="LoaiSanPham" HeaderText="Dịch vụ SC" ItemStyle-Width="160px" />
                 <asp:BoundField DataField="LoaiSuaChua" HeaderText="Loại sửa chữa"  ItemStyle-Width="190px"/>
                 <asp:BoundField DataField="GiaTien" HeaderText="Giá tiền" DataFormatString="{0:#,##0} VNĐ" ItemStyle-Width="130px" />
                 <asp:BoundField DataField="NgayDen" HeaderText="Ngày đến" DataFormatString="{0:d}" ItemStyle-CssClass="col-md-2" ItemStyle-Width="240px">

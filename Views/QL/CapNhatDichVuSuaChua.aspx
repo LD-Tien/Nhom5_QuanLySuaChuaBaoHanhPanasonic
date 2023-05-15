@@ -1,32 +1,28 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/QL/QL.Master" AutoEventWireup="true" CodeBehind="CapNhatDichVuSuaChua.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.QL.CapNhatDichVuSuaChua" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="../../CSS/index3.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
-          
-          <div class="title">
-               <a href="">Trang chủ</a>
-             <a href="">Cập nhật chính sách bảo hành</a>
-  
-              <a href="">Cập nhật dịc vụ sửa chữa</a>
-          </div>
           <div class="title2">
               <h1>Cập nhật dịch vụ</h1>
           </div>
 
-          <div class="content">
-            <div class="img">
+          <div class="content row">
+            <div class="col-4">
                 <div class="img-content">
 
                 </div>
-                <div class="title-content">
-                    <p>Tên dịch vụ </p>
-                    <div class="tc">
-                        Sửa chữa quạt
+                 <div class="row g-3 align-items-center col-12 mb-3 mt-0">
+                    <div class="col-4">
+                        <label for="lbTenLSC" class="col-form-label"><i class="fa-solid fa-star"></i>Tên LSC</label>
+                    </div>
+                    <div class="col-8">
+                        <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server" Enabled="true">Sửa chữa tủ lạnh</asp:TextBox>
                     </div>
                 </div>
             </div>
-            <div class="content1">
+            <div class="col-8">
                 <div class="button-group">
                     <button class="cancel-button">Hủy</button>
                     <button class="add-button">Thêm</button>
@@ -67,15 +63,15 @@
                             
                           </tr>
                       </table>
-                       
-                    </div>
-                    <div class="pagination">
+                       <div class="pagination">
                         <button class="prev"><</button>
                         <button class="first">1</button>
                         <button class="last">2</button>
                         <button class="next">></button>
                         
                       </div>
+                    </div>
+                    
             </div>
           </div>
 

@@ -13,5 +13,15 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views
         {
 
         }
+
+        protected void Page_PreInit(object sender, EventArgs e)
+        {
+            string masterPage = Request.QueryString["mp"];
+
+            if (!string.IsNullOrEmpty(masterPage))
+            {
+                this.MasterPageFile = masterPage;
+            }
+        }
     }
 }

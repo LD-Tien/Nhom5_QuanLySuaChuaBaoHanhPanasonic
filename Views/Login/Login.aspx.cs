@@ -39,6 +39,10 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.Login
                     {
                         Response.Redirect("../QL/CapNhatLoaiSuaChua.aspx");
                     }
+                        else if (tenTK.Equals("admin") && matKhau.Equals("admin"))
+                        {
+                            Response.Redirect("../Admin/DanhSachTaiKhoan.aspx");
+                        }
 
         }
     }

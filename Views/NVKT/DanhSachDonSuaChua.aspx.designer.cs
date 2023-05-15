@@ -148,6 +148,24 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.NVKT {
         protected global::System.Web.UI.WebControls.TextBox iploaisuachua;
         
         /// <summary>
+        /// txtGiaTien control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtGiaTien;
+        
+        /// <summary>
+        /// txtGiaPhatSinh control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtGiaPhatSinh;
+        
+        /// <summary>
         /// btnchinhsua control.
         /// </summary>
         /// <remarks>

@@ -20,7 +20,6 @@ header {
     background-color: #eeeeee;
   }
   .content{
-    width: 90%;
     display: flex;
     height: auto;
     border:1.5px solid gainsboro;
@@ -39,8 +38,8 @@ header {
   
   }
   .fa-solid{
-    margin-right: 30px;
-    color: orange;
+    margin-right: 10px;
+    color: red;
   }
   .plus .fa-solid{
     color: #007bff;
@@ -48,8 +47,8 @@ header {
     
   }
   .plus{
+      text-decoration:none;
     display: flex;
-    margin-left: 20px;
     align-items: center;
     justify-content: center;
   }
@@ -83,7 +82,7 @@ header {
     justify-content: space-between;
   }
   
-  input[type="text"] {
+  /*input[type="text"] {
     height: 40px;
     width: 800px;
     border: none;
@@ -105,7 +104,7 @@ header {
     border-radius: 2px;
     margin-left: 5px;
     cursor: pointer;
-  }
+  }*/
   
   .fa-search {
     font-size: 14px;
@@ -127,7 +126,7 @@ header {
 }
   .my-table {
    
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
   }
@@ -234,15 +233,4 @@ header {
   
   .delete-button {
     background-color: #ffc107;
-  }
-
-  footer{
-    padding: 50px 100px;
-    background-color: #132959;
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: rgb(207, 206, 206);
-    font-weight: 100;
   }

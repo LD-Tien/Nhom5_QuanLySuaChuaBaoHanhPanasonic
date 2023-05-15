@@ -11,7 +11,7 @@
                 <ItemTemplate>
                     <div class="p-3 col-md-3">
                         <div class="card  p-3">
-                        <a href="/Views/ChiTietDichVuSuaChua.aspx?maDVSC=<%# Eval("Mã DVSC") %>">
+                        <a href="/Views/ChiTietDichVuSuaChua.aspx?maDVSC=<%# Eval("Mã DVSC") %>&mp=<%# Request.QueryString["mp"] %>">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZpqrhSAGj4qtFbBbdLJOdSI0imWKn62UigCe_Dc6uL7CfhEiffDzpeXn6SdxsZvJCN04&usqp=CAU" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><%# Eval("Tên DVSC") %></p>
