@@ -2,6 +2,34 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
    <link rel="stylesheet" href="../../CSS/UserStyle.css">
     <style>
+                 .nav__link1 {
+                     font-size: 2.4rem;
+                 }
+
+                .subnav-link {
+                    display: inline-block;
+                    font-size: 2rem;
+                    min-width: 270px;
+                    padding: 8px 16px;
+                }
+
+                .subnav {
+                    top: 100%;
+                    left: 28px;
+                }
+
+                .nav__list li:hover .nav__link1::after {
+                    display: none;
+                }
+
+                .nav .subnav li:hover .nav__link1 {
+                    background-color: #ccc;
+                }
+
+                .nav .subnav li:hover .nav__link1, .nav__list > li:hover > .nav__link1 {
+                    color: rgba(17, 52, 143, 0.96);
+                    text-shadow: 1px 0 0 currentColor;
+                }
              .nav__link1 {
                  font-size:2rem;
              }

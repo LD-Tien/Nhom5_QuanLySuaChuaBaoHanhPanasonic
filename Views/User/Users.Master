@@ -10,8 +10,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <asp:ContentPlaceHolder ID="head" runat="server">
+        <style>
+            .nav__list .subnav1 {
+                top: 100%;
+            }
+
+            .subnav-link {
+                display: inline-block;
+                font-size: 2rem;
+                min-width: 270px;
+                padding: 8px 16px;
+            }
+
+            .subnav {
+                top: 100%;
+                left: 28px;
+            }
+
+            .nav__list li:hover .nav__link1::after {
+                display: none;
+            }
+
+            .nav .subnav li:hover .nav__link1 {
+                background-color: #ccc;
+            }
+
+            .nav .subnav li:hover .nav__link1, .nav__list > li:hover > .nav__link1 {
+                color: rgba(17, 52, 143, 0.96);
+                text-shadow: 1px 0 0 currentColor;
+            }
+        </style>
     </asp:ContentPlaceHolder>
-</head>
+    </head>
 <body>
     <form class="userMaster__wrapper" id="form1" runat="server">
         <nav class="navbar bg-body-tertiary" data-bs-theme="light">
@@ -65,6 +95,9 @@
                         </li>
                         <li>
                             <a href="#" class="nav__link1 nav-link">Hỗ trợ</a>
+                            <ul class="subnav" style="padding-left: 0">
+                                <li><a href="/Views/User/DanhSachSuaChua.aspx"  class="nav__link1 nav-link subnav-link subnav-link1">Đăng ký sửa chữa</a></li>
+                                <li><a href="/Views/User/DanhSachBaoHanh.aspx" class="nav__link1 nav-link subnav-link subnav-link1">Đăng ký bảo hành</a></li>
                             <ul class="subnav">
                                 <li><a href="/Views/User/DanhSachSuaChua.aspx" class="nav__link1 nav-link subnav-link">Đăng ký sửa chữa</a></li>
                                 <li><a href="/Views/User/DanhSachBaoHanh.aspx" class="nav__link1 nav-link subnav-link">Đăng ký bảo hành</a></li>

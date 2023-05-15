@@ -3,11 +3,35 @@
       <link rel="stylesheet" href="../../CSS/UserStyle.css">
     <style>
              .nav__link1 {
+                 font-size: 2.4rem;
                  font-size:2.1rem;
              }
 
             .subnav-link {
                 display: inline-block;
+                font-size: 2rem;
+                min-width: 270px;
+                padding: 8px 16px;
+            }
+
+            .subnav {
+                top: 100%;
+                left: 28px;
+            }
+
+            .nav__list li:hover .nav__link1::after {
+                display: none;
+            }
+
+            .nav .subnav li:hover .nav__link1 {
+                background-color: #ccc;
+            }
+
+            .nav .subnav li:hover .nav__link1, .nav__list > li:hover > .nav__link1 {
+                color: rgba(17, 52, 143, 0.96);
+                text-shadow: 1px 0 0 currentColor;
+            }
+
                 font-size: 1.8rem;
                 min-width: 270px;
             }
@@ -27,6 +51,7 @@
                 <asp:BoundField DataField="NgayDen" HeaderText="Ngày đến" DataFormatString="{0:d}" ItemStyle-CssClass="col-md-2" ItemStyle-Width="240px">
 <ItemStyle CssClass="col-md-2"></ItemStyle>
                 </asp:BoundField>
+                <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="140px"  /> 
                 <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="130px"  /> 
                 <asp:BoundField DataField="TrangThai" HeaderText="Trạng thái" ItemStyle-Width="162px" />
                 <asp:TemplateField ItemStyle-CssClass="col-md-2" ItemStyle-Width="130px">
