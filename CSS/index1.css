@@ -1,4 +1,4 @@
-*{
+/**{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +35,7 @@ header {
     outline: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-  }
+  }*/
   
   button[type="submit"] {
     height: 40px;
@@ -85,7 +85,6 @@ header {
 
 
   .content{
-    width: 95%;
     height: auto;
     border:1.5px solid gainsboro;
     margin: 5px auto;
@@ -108,9 +107,9 @@ header {
     text-align: center;
     position: relative;
   }
-  .content1 .fa-solid{
-    color: orange;
-    margin-right: 20px;
+ .fa-solid{
+    color: red;
+    margin-right: 10px;
   }
 .content1-1 p::before{
     content: "";
@@ -192,7 +191,7 @@ header {
 }
   .my-table {
    
-    width: 1320px;
+    width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
   }
@@ -233,7 +232,7 @@ header {
 
 
 
-  footer{
+  /*footer{
     padding: 50px 100px;
     background-color: #132959;
     width: 100%;
@@ -242,5 +241,5 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     color: rgb(207, 206, 206);
     font-weight: 100;
-  }
+  }*/
  

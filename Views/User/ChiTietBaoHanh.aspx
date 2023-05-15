@@ -1,10 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/User/Users.Master" AutoEventWireup="true" CodeBehind="ChiTietBaoHanh.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.User.ChiTietBaoHanh" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
       <link rel="stylesheet" href="../../CSS/UserStyle.css">
+        <style>
+             .nav__link1 {
+                 font-size:2rem;
+             }
+
+            .subnav-link {
+                display: inline-block;
+                font-size: 1.8rem;
+                min-width: 270px;
+            }
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2 class="heading">Cập nhật bảo hành</h2>
-    <div class="content">
+    <h2 class="heading myContent">Cập nhật bảo hành</h2>
+    <div class="content myContent">
         <div class="row">
             <div class="col-md-6">
                 <div class="content__item">

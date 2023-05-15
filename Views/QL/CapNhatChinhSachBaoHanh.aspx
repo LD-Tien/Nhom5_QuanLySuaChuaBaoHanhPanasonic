@@ -1,20 +1,53 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/QL/QL.Master" AutoEventWireup="true" CodeBehind="CapNhatChinhSachBaoHanh.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.QL.CapNhatChinhSachBaoHanh" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="../../CSS/index1.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
-        <div class="title">
-            <a href="">Trang chủ</a>
-            <a href="">Cập nhật chính sách bảo hành</a>
-
-            <a href="">Cập nhật dịc vụ sửa chữa</a>
-        </div>
         <div class="title2">
             <h1>Cập nhật chính sách bảo hành</h1>
         </div>
-        <div class="content">
-            <div class="content1">
+        <div class="content row">
+            <div class="row g-3 align-items-center col-md-6">
+                <div class="col-4">
+                    <label for="lbLSP" class="col-form-label"><i class="fa-solid fa-star"></i>Loại sản phẩm</label>
+                </div>
+                <div class="col-8">
+                    <asp:DropDownList ID="ddlLSP" runat="server" CssClass="form-select" Enabled="false">
+                        <asp:ListItem Text="Điều hòa" Selected="True"></asp:ListItem>
+                        <asp:ListItem Text="Tủ lạnh"></asp:ListItem>
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="row g-3 align-items-center col-md-6">
+                <div class="col-4">
+                    <label for="lbXuatXu" class="col-form-label"><i class="fa-solid fa-star"></i>Xuất xứ</label>
+                </div>
+                <div class="col-8">
+                    <asp:TextBox ID="txtXuatXu" CssClass="form-control" runat="server" Enabled="false">Nhật bản</asp:TextBox>
+                </div>
+            </div>
+            <div class="row g-3 align-items-center col-md-6">
+                <div class="col-4">
+                    <label for="lbTHBH" class="col-form-label">
+                        <i class="fa-solid fa-star"></i>Thời hạn bảo hành
+                            <br>
+                        [Tháng]</label>
+                </div>
+                <div class="col-8">
+                    <asp:TextBox ID="txtTHBH" CssClass="form-control" runat="server" Enabled="false" type="number">24</asp:TextBox>
+                </div>
+            </div>
+            <div class="row g-3 align-items-center col-md-6">
+                <div class="col-4">
+                    <label for="lbTHBHDB" class="col-form-label"><i class="fa-solid fa-star"></i>Thời hạn đặc biệt</label>
+                </div>
+                <div class="col-8">
+                    <asp:TextBox ID="txtTHBHDB" CssClass="form-control" runat="server" Enabled="false">bo mạch lạnh được bảo hành 36 tháng kể từ ngày sản xuất</asp:TextBox>
+                </div>
+            </div>
+            <%--<div class="content1">
                 <div class="content1a">
                     <div class="content1-1">
                         <p><i class="fa-solid fa-star"></i>Loại sản phẩm </p>
@@ -37,9 +70,7 @@
                         <p><i class="fa-solid fa-star"></i>Thời hạn bảo hành
                             <br>
                             [Tháng]</p>
-                        <div class="p">
-                            24
-                        </div>
+                         <asp:TextBox ID="txtTenKhachHang" CssClass="form-control" runat="server" Enabled="true">24</asp:TextBox>
                     </div>
                     <div class="content1-2">
                         <p><i class="fa-solid fa-star"></i>Thời hạn đặc biệt</p>
@@ -50,7 +81,7 @@
                 </div>
                 <div class="content1-3"></div>
                 <div class="content1-4"></div>
-            </div>
+            </div>--%>
             <div class="content2">
                 <div class="button-group">
                     <button class="cancel-button">Hủy</button>
@@ -106,16 +137,16 @@
                         <td>Bo mạch lạnh được bảo hành 36 tháng kể từ ngày sản xuất</td>
                     </tr>
                 </table>
+                <div class="pagination">
+                    <button class="prev"><</button>
+                    <button class="first">1</button>
+                    <button class="last">2</button>
+                    <button class="next">></button>
 
+                </div>
             </div>
 
-            <div class="pagination">
-                <button class="prev"><</button>
-                <button class="first">1</button>
-                <button class="last">2</button>
-                <button class="next">></button>
 
-            </div>
         </div>
     </section>
 </asp:Content>

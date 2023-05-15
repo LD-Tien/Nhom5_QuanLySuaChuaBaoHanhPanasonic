@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>ĐƠN BẢO HÀNH</h1>
     <div class="container">
         <div class="row">
             <div class="col-3 text-center border-end p-3">
@@ -22,31 +21,31 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="inputKH" class="form-label">Tên khách hàng</label>
-                                <input type="text" class="form-control" id="inputKH" disabled value="Nguyễn Đặng Kiều Diểm">
+                                <asp:TextBox ID="inputKH" runat="server" CssClass="form-control" Enabled="false">Nguyễn Đặng Kiều Diểm</asp:TextBox>
                             </div>
                             <div class="mb-3">
                                 <label for="inputMD" class="form-label">Mã đơn</label>
-                                <input type="text" class="form-control" id="inputMD" disabled value="gjhkđmdt06">
+                                <asp:TextBox ID="inputMD" CssClass="form-control" runat="server" Enabled="false">gjhkđmdt06</asp:TextBox>
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
                                 <label for="inputSDT" class="form-label">SĐT</label>
-                                <input type="text" class="form-control" id="inputSDT" disabled value="0336071752">
+                                <asp:TextBox ID="inputSDT" CssClass="form-control" runat="server" Enabled="false">0336071752</asp:TextBox>
                             </div>
                             <div class="mb-3">
                                 <label for="inputDAY" class="form-label">Ngày đến</label>
-                                <input type="text" class="form-control" id="inputDAY" disabled value="16/03/2022">
+                                <asp:TextBox ID="inputDAY" CssClass="form-control" runat="server" Enabled="false">16/03/2022</asp:TextBox>
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
                                 <label for="inputadd" class="form-label">Địa Chỉ</label>
-                                <input type="text" class="form-control" id="inputadd" disabled value="77 Phạm Công Trứ">
+                                <asp:TextBox ID="inputadd" CssClass="form-control" runat="server" Enabled="false">77 Phạm Công Trứ</asp:TextBox>
                             </div>
                             <div class="mb-3">
                                 <label for="inputtime" class="form-label">Giờ hẹn</label>
-                                <input type="text" class="form-control" id="inputtime" disabled value="07:00 AM">
+                                <asp:TextBox ID="inputtime" CssClass="form-control" runat="server" Enabled="false">07:00 AM</asp:TextBox>
                             </div>
                         </div>
                     </div>
@@ -57,20 +56,20 @@
                         <div class="col-8 p-1">
                             <div class="mb-3">
                                 <label for="ipdichvu" class="form-label">Dịch vụ</label>
-                                <input type="email" class="form-control" id="ipdichvu" disabled value="Sửa chữa tủ lạnh" >
+                                <asp:TextBox ID="ipdichvu" CssClass="form-control" runat="server" Enabled="false">sửa chữa tủ lạnh</asp:TextBox>
                             </div>
                             <div class="mb-3">
                                 <label for="motacuakhachhang" class="form-label">Mô tả của khách hàng</label>
-                                <textarea class="form-control" id="motacuakhachhang" disabled rows="3"></textarea>
+                                <textarea class="form-control" id="motacuakhachhang" disabled rows="3">máy lạnh bị hư nhiệt độ</textarea>
                             </div>
                             <div class="mb-3">
                                 <label for="motacuanhanvien" class="form-label">Ghi chú của nhân viên</label>
-                                <textarea class="form-control" id="motacuanhanvien" rows="3" disabled></textarea>
+                                <textarea class="form-control" id="motacuanhanvien" rows="3" ></textarea>
                             </div>
                             <div class="mb-3 row">
                                 <label for="inputmoney" class="col-sm-3 col-form-label">Giá phát sinh</label>
                                 <div class="col-sm-4">
-                                    <input type="password" class="form-control" id="inputmoney">
+                                    <input type="text" class="form-control" id="inputmoney" >
                                 </div>
                             </div>
                             <div class="mb-3 row">

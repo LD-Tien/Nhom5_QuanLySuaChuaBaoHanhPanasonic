@@ -22,10 +22,7 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views
 
             if (!string.IsNullOrEmpty(masterPage))
             {
-                if (masterPage.Equals("../Views/User/Users.master"))
-                {
-                    this.MasterPageFile = masterPage;
-                }
+                 this.MasterPageFile = masterPage;
             }
         }
 
