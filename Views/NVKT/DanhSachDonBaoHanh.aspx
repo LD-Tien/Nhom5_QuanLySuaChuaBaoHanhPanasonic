@@ -69,7 +69,7 @@
                             <div class="mb-3 row">
                                 <label for="inputmoney" class="col-sm-3 col-form-label">Giá phát sinh</label>
                                 <div class="col-sm-4">
-                                    <input type="password" class="form-control" id="inputmoney">
+                                    <input type="text" class="form-control" id="inputmoney" >
                                 </div>
                             </div>
                             <div class="mb-3 row">

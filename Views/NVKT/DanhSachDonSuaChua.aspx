@@ -1,11 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/NVKT/NVKT.Master" AutoEventWireup="true" CodeBehind="DanhSachDonSuaChua.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.NVKT.DanhSachDonSuaChua" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <div class="row">
             <div class="col-3 text-center border-end p-3">
-                <h4 style="background-color: darkblue;color: white">Các đơn sửa chữa</h4>
+                <h4 style="background-color: darkblue; color: white">Các đơn sửa chữa</h4>
                 <asp:Button class="btn btn-info mb-3 p-2" Width="100%" ID="Button1" runat="server" Text="Đơn 1" />
                 <asp:Button class="btn btn-info mb-3 p-2" Width="100%" ID="Button2" runat="server" Text="Đơn 2" />
                 <asp:Button class="btn btn-info mb-3 p-2" Width="100%" ID="Button3" runat="server" Text="Đơn 3" />
@@ -18,7 +19,7 @@
                 <div class="infor-pro p-2">
                     <h4>Thông tin đơn</h4>
                     <div class="row">
-                         <div class="col">
+                        <div class="col">
                             <div class="mb-3">
                                 <label for="inputKH" class="form-label">Tên khách hàng</label>
                                 <asp:TextBox ID="inputKH" runat="server" CssClass="form-control" Enabled="false">Nguyễn Đặng Kiều Diểm</asp:TextBox>
@@ -77,31 +78,39 @@
                 </div>
                 <div class="price p-2">
                     <div class="row g-3">
-                        <div class="col-sm-7">
-                            <label for="" class="form-label">Giá dịch vụ</label>
-                            <input type="text" class="form-control border-0" placeholder="3.000.000 vnd" aria-label="giadichvu">
+                        <div class="col-sm-6">
+                            <label for="lbGiaTien" class="form-label">Giá tiền</label>
+                            <div class="input-group">
+                                <asp:TextBox ID="txtGiaTien" CssClass="form-control" runat="server" Enabled="false">350000</asp:TextBox>
+                                <span class="input-group-text">VNĐ</span>
+                            </div>
+
                         </div>
-                        <div class="col-sm">
-                            <label for="" class="form-label">Giá phát sinh:</label>
-                            <input type="text" class="form-control" placeholder="State" aria-label="State">
+                        <div class="col-sm-6">
+                            <label for="lbGiaTien" class="form-label">Giá tiền</label>
+                            <div class="input-group">
+                                <asp:TextBox ID="txtGiaPhatSinh" CssClass="form-control" runat="server" Enabled="true">350000</asp:TextBox>
+                                <span class="input-group-text">VNĐ</span>
+                            </div>
+
                         </div>
                         <div class="total float-end">
-                        <div class="mb-3 row">
-                            <label for="total" class="col-sm-2 col-form-label">Tổng tiền</label>
-                            <div class="col-sm-10">
-                                <input type="text" readonly class="form-control-plaintext" id="total" value="3000000 vnd">
+                            <div class="mb-3 row">
+                                <label for="total" class="col-sm-2 col-form-label">Tổng tiền</label>
+                                <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="total" value="3000000 vnd">
+                                </div>
                             </div>
                         </div>
-                    </div> 
                     </div>
-                    
+
 
                 </div>
 
                 <div class="button float-end p-2">
                     <asp:Button class="btn btn-info" ID="btnchinhsua" runat="server" Text="Chỉnh sửa" />
                     <asp:Button class="btn btn-danger" ID="btnxn" runat="server" Text="Xác nhận hoàn thành" />
-                </div> 
+                </div>
             </div>
         </div>
     </div>

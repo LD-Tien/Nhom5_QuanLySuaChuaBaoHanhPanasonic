@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="row ">
-        <h3 class="col-md-4 me-auto">Danh sách đơn sửa chữa</h3>
+        <h3 class="col-md-4 me-auto">Danh sách tài khoản nhân viên</h3>
         <asp:Button ID="btnLuuTKNV" runat="server" Text="Thêm tài khoản" CssClass="btn btn-primary col-md-2" OnClick="btnThemTKNV_Click" />
     </div>
     <div class="row">

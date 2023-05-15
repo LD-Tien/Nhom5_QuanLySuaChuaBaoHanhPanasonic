@@ -12,6 +12,15 @@
         .grv__ds td:nth-child(3) {
                 max-width: 186px
         }
+        .nav__link1 {
+            font-size: 2rem;
+        }
+
+        .subnav-link {
+            display: inline-block;
+            font-size: 1.8rem;
+            min-width: 270px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -19,7 +28,7 @@
         <h3 class="heading">Đơn bảo hành</h3>
         <asp:GridView ID="gvDSDonSuaChua" class="grv__ds" runat="server" AutoGenerateColumns="false" AllowPaging="True" PageSize="5" >
             <Columns>
-                <asp:BoundField DataField="STT" HeaderText="STT" ItemStyle-CssClass="col-md-2" />
+                <asp:BoundField DataField="STT" HeaderText="Mã đơn" ItemStyle-CssClass="col-md-2" />
                 <asp:BoundField DataField="LoaiSanPham" HeaderText="Loại sản phẩm"  />
                 <asp:BoundField DataField="NgayDen" HeaderText="Ngày đến" DataFormatString="{0:dd/MM/yyyy}" ItemStyle-CssClass="col-md-2" />
                 <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn"  />

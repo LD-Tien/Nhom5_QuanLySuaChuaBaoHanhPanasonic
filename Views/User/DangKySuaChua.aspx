@@ -1,6 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/User/Users.Master" AutoEventWireup="true" CodeBehind="DangKySuaChua.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.User.DangKySuaChua" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" type="text/css" href="../../CSS/UserStyle.css" />
+    <style>
+             .nav__link1 {
+                 font-size:2rem;
+             }
+
+            .subnav-link {
+                display: inline-block;
+                font-size: 1.8rem;
+                min-width: 270px;
+            }
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2 class="heading">Đăng ký sửa chữa</h2>

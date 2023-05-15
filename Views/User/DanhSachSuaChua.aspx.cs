@@ -28,7 +28,7 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User
                 // Thêm dữ liệu vào DataTable
                 DataRow row1 = dt.NewRow();
                 row1["STT"] = "1";
-                row1["LoaiSanPham"] = "Điều hòa";
+                row1["LoaiSanPham"] = "Sửa chữa điều hòa";
                 row1["LoaiSuaChua"] = "Điều hòa không lạnh";
                 row1["GiaTien"] = "450.000";
                 row1["NgayDen"] = DateTime.Now.Date.ToShortDateString();
@@ -41,7 +41,7 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User
                 DateTime ngay2 = DateTime.ParseExact(ngayCuuThe2, "dd/MM/yyyy", CultureInfo.InvariantCulture);
                 DataRow row2 = dt.NewRow();
                 row2["STT"] = "2";
-                row2["LoaiSanPham"] = "Tủ lạnh";
+                row2["LoaiSanPham"] = "Sửa chữa tủ lạnh";
                 row2["LoaiSuaChua"] = "Tủ không làm mát";
                 row2["GiaTien"] = "500.000";
                 row2["NgayDen"] = ngay2.ToString("d");
@@ -54,7 +54,7 @@ namespace Nhom5_QuanLySuaChuaBaoHanh.Views.User
                 DateTime ngay3 = DateTime.ParseExact(ngayCuuThe3, "dd/MM/yyyy", CultureInfo.InvariantCulture);
                 DataRow row3 = dt.NewRow();
                 row3["STT"] = "3";
-                row3["LoaiSanPham"] = "Điều hòa";
+                row3["LoaiSanPham"] = "Sửa chữa điều hòa";
                 row3["LoaiSuaChua"] = "Điều hòa không hoạt động";
                 row3["GiaTien"] = "350.000";
                 row3["NgayDen"] = ngay3.ToString("d");
