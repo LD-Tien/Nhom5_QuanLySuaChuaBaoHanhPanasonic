@@ -2,16 +2,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
       <link rel="stylesheet" href="../../CSS/UserStyle.css">
     <style>
-        .grv__ds {
-            background: red;
-        }
-        .row__nav {
-          margin-left: 102px;
-        }
+            .grv__ds {
+                background: red;
+            }
+            .row__nav {
+              margin-left: 102px;
+            }
 
-        .grv__ds td:nth-child(3) {
-                max-width: 186px
-        }
+            .grv__ds td:nth-child(3) {
+                    max-width: 186px
+            }
              .nav__link1 {
                  font-size: 2.4rem;
              }
@@ -39,7 +39,7 @@
             .nav .subnav li:hover .nav__link1, .nav__list > li:hover > .nav__link1 {
                 color: rgba(17, 52, 143, 0.96);
                 text-shadow: 1px 0 0 currentColor;
-            }
+            }             
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

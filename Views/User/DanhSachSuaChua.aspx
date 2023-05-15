@@ -47,7 +47,7 @@
                 <asp:BoundField DataField="NgayDen" HeaderText="Ngày đến" DataFormatString="{0:d}" ItemStyle-CssClass="col-md-2" ItemStyle-Width="240px">
 <ItemStyle CssClass="col-md-2"></ItemStyle>
                 </asp:BoundField>
-                <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="130px"  /> 
+                <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="140px"  /> 
                 <asp:BoundField DataField="TrangThai" HeaderText="Trạng thái" ItemStyle-Width="162px" />
                 <asp:TemplateField ItemStyle-CssClass="col-md-2" ItemStyle-Width="130px">
                     <ItemTemplate>
