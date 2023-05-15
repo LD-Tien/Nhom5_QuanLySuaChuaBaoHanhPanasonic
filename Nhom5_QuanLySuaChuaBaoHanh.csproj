@@ -67,12 +67,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Header-Footer.css" />
+    <Content Include="CSS\index1.css" />
+    <Content Include="CSS\index3.css" />
+    <Content Include="CSS\inerx2.css" />
+    <Content Include="CSS\UserStyle.css" />
+    <Content Include="Images\footer_confirm.png" />
+    <Content Include="Images\icon_fb.png" />
+    <Content Include="Images\icon_phone.png" />
+    <Content Include="Images\logo-panasonic.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\star.png" />
+    <Content Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx" />
     <Content Include="Views\Admin\DanhSachTaiKhoan.aspx" />
+    <Content Include="Views\ChinhSachBaoHanh.aspx" />
+    <Content Include="Views\ChiTietDichVuSuaChua.aspx" />
+    <Content Include="Views\Login\Login.aspx" />
+    <Content Include="Views\Login\Signup.aspx" />
+    <Content Include="Views\Admin\ThemTaiKhoanNhanVien.aspx" />
     <Content Include="Views\NVCSKH\ChiTietDonBaoHanh.aspx" />
     <Content Include="Views\NVCSKH\ChiTietDonSuaChua.aspx" />
     <Content Include="Views\NVCSKH\DanhSachDonBaoHanh.aspx" />
     <Content Include="Views\NVCSKH\DanhSachDonSuaChua.aspx" />
     <Content Include="Images\logo-panasonic.png" />
+    <Content Include="Views\NVKT\DanhSachDonBaoHanh.aspx" />
+    <Content Include="Views\NVKT\DanhSachDonSuaChua.aspx" />
+    <Content Include="Views\QL\CapNhatChinhSachBaoHanh.aspx" />
+    <Content Include="Views\QL\CapNhatDichVuSuaChua.aspx" />
+    <Content Include="Views\QL\CapNhatLoaiSuaChua.aspx" />
+    <Content Include="Views\TrangChu.aspx" />
+    <Content Include="Views\User\ChiTietBaoHanh.aspx" />
+    <Content Include="Views\User\ChiTietSuaChua.aspx" />
+    <Content Include="Views\User\DangKyBaoHanh.aspx" />
+    <Content Include="Views\User\DangKySuaChua.aspx" />
+    <Content Include="Views\User\DanhSachBaoHanh.aspx" />
+    <Content Include="Views\User\DanhSachSuaChua.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,12 +113,61 @@
     <Compile Include="Views\Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx.cs">
+      <DependentUpon>CapNhatTaiKhoanNhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\CapNhatTaiKhoanNhanVien.aspx.designer.cs">
+      <DependentUpon>CapNhatTaiKhoanNhanVien.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Admin\DanhSachTaiKhoan.aspx.cs">
       <DependentUpon>DanhSachTaiKhoan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Views\Admin\DanhSachTaiKhoan.aspx.designer.cs">
       <DependentUpon>DanhSachTaiKhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChinhSachBaoHanh.aspx.cs">
+      <DependentUpon>ChinhSachBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChinhSachBaoHanh.aspx.designer.cs">
+      <DependentUpon>ChinhSachBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChiTietDichVuSuaChua.aspx.cs">
+      <DependentUpon>ChiTietDichVuSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ChiTietDichVuSuaChua.aspx.designer.cs">
+      <DependentUpon>ChiTietDichVuSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\KVL\KVL.Master.cs">
+      <DependentUpon>KVL.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\KVL\KVL.Master.designer.cs">
+      <DependentUpon>KVL.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Login\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login\Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Login\Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ThemTaiKhoanNhanVien.aspx.cs">
+      <DependentUpon>ThemTaiKhoanNhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ThemTaiKhoanNhanVien.aspx.designer.cs">
+      <DependentUpon>ThemTaiKhoanNhanVien.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\NVCSKH\ChiTietDonBaoHanh.aspx.cs">
       <DependentUpon>ChiTietDonBaoHanh.aspx</DependentUpon>
@@ -126,6 +205,111 @@
     <Compile Include="Views\NVCSKH\NVCSKH.Master.designer.cs">
       <DependentUpon>NVCSKH.Master</DependentUpon>
     </Compile>
+    <Compile Include="Views\NVKT\DanhSachDonBaoHanh.aspx.cs">
+      <DependentUpon>DanhSachDonBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\NVKT\DanhSachDonBaoHanh.aspx.designer.cs">
+      <DependentUpon>DanhSachDonBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NVKT\DanhSachDonSuaChua.aspx.cs">
+      <DependentUpon>DanhSachDonSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\NVKT\DanhSachDonSuaChua.aspx.designer.cs">
+      <DependentUpon>DanhSachDonSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NVKT\NVKT.Master.cs">
+      <DependentUpon>NVKT.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\NVKT\NVKT.Master.designer.cs">
+      <DependentUpon>NVKT.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QL\CapNhatChinhSachBaoHanh.aspx.cs">
+      <DependentUpon>CapNhatChinhSachBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\QL\CapNhatChinhSachBaoHanh.aspx.designer.cs">
+      <DependentUpon>CapNhatChinhSachBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QL\CapNhatDichVuSuaChua.aspx.cs">
+      <DependentUpon>CapNhatDichVuSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\QL\CapNhatDichVuSuaChua.aspx.designer.cs">
+      <DependentUpon>CapNhatDichVuSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QL\CapNhatLoaiSuaChua.aspx.cs">
+      <DependentUpon>CapNhatLoaiSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\QL\CapNhatLoaiSuaChua.aspx.designer.cs">
+      <DependentUpon>CapNhatLoaiSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QL\QL.Master.cs">
+      <DependentUpon>QL.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\QL\QL.Master.designer.cs">
+      <DependentUpon>QL.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TrangChu.aspx.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChu.aspx.designer.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\ChiTietBaoHanh.aspx.cs">
+      <DependentUpon>ChiTietBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\ChiTietBaoHanh.aspx.designer.cs">
+      <DependentUpon>ChiTietBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\ChiTietSuaChua.aspx.cs">
+      <DependentUpon>ChiTietSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\ChiTietSuaChua.aspx.designer.cs">
+      <DependentUpon>ChiTietSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\DangKyBaoHanh.aspx.cs">
+      <DependentUpon>DangKyBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\DangKyBaoHanh.aspx.designer.cs">
+      <DependentUpon>DangKyBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\DangKySuaChua.aspx.cs">
+      <DependentUpon>DangKySuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\DangKySuaChua.aspx.designer.cs">
+      <DependentUpon>DangKySuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\DanhSachBaoHanh.aspx.cs">
+      <DependentUpon>DanhSachBaoHanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\DanhSachBaoHanh.aspx.designer.cs">
+      <DependentUpon>DanhSachBaoHanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\DanhSachSuaChua.aspx.cs">
+      <DependentUpon>DanhSachSuaChua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\DanhSachSuaChua.aspx.designer.cs">
+      <DependentUpon>DanhSachSuaChua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\Users.Master.cs">
+      <DependentUpon>Users.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\User\Users.Master.designer.cs">
+      <DependentUpon>Users.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
@@ -133,6 +317,10 @@
     </None>
     <Content Include="Views\NVCSKH\NVCSKH.Master" />
     <Content Include="Views\Admin\Admin.Master" />
+    <Content Include="Views\NVKT\NVKT.Master" />
+    <Content Include="Views\User\Users.Master" />
+    <Content Include="Views\KVL\KVL.Master" />
+    <Content Include="Views\QL\QL.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -140,6 +328,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

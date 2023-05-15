@@ -98,6 +98,9 @@
                             <ul class="subnav" style="padding-left: 0">
                                 <li><a href="/Views/User/DanhSachSuaChua.aspx"  class="nav__link1 nav-link subnav-link subnav-link1">Đăng ký sửa chữa</a></li>
                                 <li><a href="/Views/User/DanhSachBaoHanh.aspx" class="nav__link1 nav-link subnav-link subnav-link1">Đăng ký bảo hành</a></li>
+                            <ul class="subnav">
+                                <li><a href="/Views/User/DanhSachSuaChua.aspx" class="nav__link1 nav-link subnav-link">Đăng ký sửa chữa</a></li>
+                                <li><a href="/Views/User/DanhSachBaoHanh.aspx" class="nav__link1 nav-link subnav-link">Đăng ký bảo hành</a></li>
                             </ul>
                         </li>
                         <li>

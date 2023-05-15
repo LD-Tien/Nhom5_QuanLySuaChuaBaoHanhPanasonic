@@ -13,5 +13,11 @@ namespace Nhom5_QuanLySuaChuaBaoHanh
         {
 
         }
+
+        protected void LinkButtonTrangChu_Click(object sender, EventArgs e)
+        {
+            // Chuyển đến trang chủ với Master page của 
+            Response.Redirect("/Views/TrangChu.aspx?mp=../Views/NVCSKH/NVCSKH.master");
+        }
     }
 }

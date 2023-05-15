@@ -4,6 +4,7 @@
     <style>
              .nav__link1 {
                  font-size: 2.4rem;
+                 font-size:2.1rem;
              }
 
             .subnav-link {
@@ -31,6 +32,9 @@
                 text-shadow: 1px 0 0 currentColor;
             }
 
+                font-size: 1.8rem;
+                min-width: 270px;
+            }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" >
@@ -48,6 +52,7 @@
 <ItemStyle CssClass="col-md-2"></ItemStyle>
                 </asp:BoundField>
                 <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="140px"  /> 
+                <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="130px"  /> 
                 <asp:BoundField DataField="TrangThai" HeaderText="Trạng thái" ItemStyle-Width="162px" />
                 <asp:TemplateField ItemStyle-CssClass="col-md-2" ItemStyle-Width="130px">
                     <ItemTemplate>

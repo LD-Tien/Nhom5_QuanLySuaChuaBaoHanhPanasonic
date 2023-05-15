@@ -30,6 +30,15 @@
                     color: rgba(17, 52, 143, 0.96);
                     text-shadow: 1px 0 0 currentColor;
                 }
+             .nav__link1 {
+                 font-size:2rem;
+             }
+
+            .subnav-link {
+                display: inline-block;
+                font-size: 1.8rem;
+                min-width: 270px;
+            }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
