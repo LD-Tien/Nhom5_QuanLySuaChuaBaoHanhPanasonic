@@ -42,13 +42,12 @@
 <ItemStyle CssClass="col-md-2"></ItemStyle>
                 </asp:BoundField>
                 <asp:BoundField DataField="LoaiSanPham" HeaderText="Dịch vụ SC" ItemStyle-Width="160px" />
-                <asp:BoundField DataField="LoaiSuaChua" HeaderText="Loại sửa chữa"  ItemStyle-Width="190px"/>
-                <asp:BoundField DataField="GiaTien" HeaderText="Giá tiền" DataFormatString="{0:#,##0} VNĐ" ItemStyle-Width="130px" />
-                <asp:BoundField DataField="NgayDen" HeaderText="Ngày đến" DataFormatString="{0:d}" ItemStyle-CssClass="col-md-2" ItemStyle-Width="240px">
+                <asp:BoundField DataField="LoaiSuaChua" HeaderText="Loại sửa chữa"  ItemStyle-Width="220px"/>
+                <asp:BoundField DataField="GiaTien" HeaderText="Giá tiền" DataFormatString="{0:#,##0} VNĐ" ItemStyle-Width="140px" />
+                <asp:BoundField DataField="NgayDen" HeaderText="Ngày đến" DataFormatString="{0:d}" ItemStyle-CssClass="col-md-2" ItemStyle-Width="120px">
 <ItemStyle CssClass="col-md-2"></ItemStyle>
                 </asp:BoundField>
                 <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="140px"  /> 
-                <asp:BoundField DataField="GioHen" HeaderText="Giờ hẹn" ItemStyle-Width="130px"  /> 
                 <asp:BoundField DataField="TrangThai" HeaderText="Trạng thái" ItemStyle-Width="162px" />
                 <asp:TemplateField ItemStyle-CssClass="col-md-2" ItemStyle-Width="130px">
                     <ItemTemplate>
