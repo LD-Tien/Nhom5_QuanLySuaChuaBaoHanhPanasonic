@@ -2,6 +2,32 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="../../CSS/index3.css">
+    <style>
+        .pager-style a {
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .pager-style a:hover {
+        background-color: #0062cc;
+        color: #fff;
+    }
+
+    .pager-style span {
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        color: #666;
+        cursor: default;
+    }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
