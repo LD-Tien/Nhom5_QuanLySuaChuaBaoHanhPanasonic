@@ -41,12 +41,12 @@
     color: #ABABAB;
 }
 
-.nav .subnav li:hover .nav__link, .nav__list > li:hover > .nav__link {
+.nav .subnav li:hover .nav__link1, .nav__list > li:hover > .nav__link1 {
     color: rgba(17, 52, 143, 0.96);
     text-shadow: 1px 0 0 currentColor;
 }
 
-.nav .subnav li:hover .nav__link {
+.nav .subnav li:hover .nav__link1 {
     background-color: #ccc;
 }
 
@@ -98,21 +98,22 @@
 .subnav {
     display: none;
     position: absolute;
-    top: 110%;
-    left: 0;
+    top: 100%;
+    left: 28px;
     box-shadow: 0 0 2px #888;
     border: none;
     outline: none;
 }
 
-.nav__list li:hover .subnav .nav__link::after {
+.nav__list li:hover .nav__link1::after {
     display: none;
 }
 
 .subnav-link {
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 2rem;
     min-width: 270px;
+    padding: 8px 16px;
 }
 
 .footer {

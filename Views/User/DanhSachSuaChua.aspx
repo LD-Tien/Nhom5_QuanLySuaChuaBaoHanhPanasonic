@@ -4,7 +4,6 @@
     <style>
              .nav__link1 {
                  font-size: 2.4rem;
-                 font-size:2.1rem;
              }
 
             .subnav-link {
@@ -32,9 +31,6 @@
                 text-shadow: 1px 0 0 currentColor;
             }
 
-                font-size: 1.8rem;
-                min-width: 270px;
-            }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" >
