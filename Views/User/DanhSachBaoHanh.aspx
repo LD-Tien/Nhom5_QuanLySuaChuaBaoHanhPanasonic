@@ -60,7 +60,7 @@
             </Columns>
         </asp:GridView>
          <div class="cta__control" style="margin:72px 126px 0 0">
-            <asp:LinkButton runat="server" Text="Đăng ký sửa chữa" CSSClass="cta__btn" OnClick="RedirectToDangKyBaoHanh" />
+            <asp:LinkButton runat="server" Text="Đăng ký bảo hành" CSSClass="cta__btn" OnClick="RedirectToDangKyBaoHanh" />
         </div>
     </div>
 </asp:Content>

@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="content__item">
-                    <label class="label" for="">Loại sản phẩm</label>
+                    <label class="label" for="">Dịch vụ SC</label>
                     <asp:DropDownList class="dropList" ID="DropDownList1" runat="server">
                         <asp:ListItem Text="" Value="option" Selected="True"></asp:ListItem>
                         <asp:ListItem Text="Sửa máy giặt" Value="suamaygiat"></asp:ListItem>
