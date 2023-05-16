@@ -1,8 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/KVL/KVL.Master" AutoEventWireup="true" CodeBehind="ChinhSachBaoHanh.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.ChinhSachBaoHanh" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h3>Chính sách bảo hành</h3>
+    <div class="container">
+        <h3>Chính sách bảo hành</h3>
     <div class="row">
         <div class="col-md-3 mt-3 mb-3">
             <label for="lbLoaiSanPham" class="form-label">Loại sản phẩm</label>
@@ -33,4 +35,6 @@
         <asp:BoundField DataField="Thời hạn ĐB" HeaderText="Thời hạn đặc biệt"/>
     </Columns>
     </asp:GridView>
+    </div>
+    
 </asp:Content>
