@@ -31,7 +31,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <div class="row">
-            <asp:Label ID="lbDVSC" runat="server" Text="Dịch vụ sửa chữa máy giặc" CssClass="h5"></asp:Label>
+            <asp:Label ID="lbDVSC" runat="server" Text="Dịch vụ sửa chữa máy giặt" CssClass="h5"></asp:Label>
             <asp:Image CssClass="col-md-4 img-thumbnail" ID="Image1" runat="server" ImageUrl="https://dienlanhcholon.com/wp-content/uploads/2019/06/sua-may-giat-hcm.jpg"/>
             <div class="col-md-8">
                 <asp:GridView ID="MyGridView" runat="server" AutoGenerateColumns="false" AllowPaging="true"
