@@ -36,8 +36,8 @@
             <nav class="nav">
                     <ul class="nav__list">
                         <li>
-                            <a href="/Views/Admin/CapNhatTaiKhoanNhanVien.aspx" class="nav__link1  nav-link">Quản lý tài khoản</a>
-                        </li>
+                            <a href="/Views/Admin/DanhSachTaiKhoan.aspx" class="nav__link1  nav-link">Quản lý tài khoản</a>
+                        </li>   
                     </ul>
                 </nav>
             <div class="col-12 mb-3">

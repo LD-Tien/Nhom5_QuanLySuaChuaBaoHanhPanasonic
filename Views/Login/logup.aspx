@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.Login.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Logup.aspx.cs" Inherits="Nhom5_QuanLySuaChuaBaoHanh.Views.Login.WebForm2" %>
 
 <!DOCTYPE html>
 
@@ -28,13 +28,13 @@
                     <div class="mb-3 row">
                         <label for="inputname" class="col-sm-2 col-form-label">Họ và tên:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputname">
+                            <input type="password" class="form-control" id="inputname">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="ipname" class="col-sm-2 col-form-label">Tên đăng nhập:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="ipname">
+                            <input type="password" class="form-control" id="ipname">
                         </div>
                     </div>
                     <div class="mb-3 row">
@@ -42,10 +42,10 @@
                         <div class="col-sm-10">
                             <div class="row g-3">
                                 <div class="col-sm-7">
-                                    <input type="text" class="form-control" placeholder="" aria-label="Pasword">
+                                    <input type="text" class="form-control" placeholder="Pasword" aria-label="Pasword">
                                 </div>
                                 <div class="col-sm">
-                                    <input type="text" class="form-control" placeholder="nhập lại mật khẩu" aria-label="Reset password">
+                                    <input type="text" class="form-control" placeholder="Reset password" aria-label="Reset password">
                                 </div>
                             </div>
                         </div>
@@ -53,30 +53,30 @@
                     <div class="mb-3 row">
                         <label for="inputday" class="col-sm-2 col-form-label">Ngày sinh:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputday">
+                            <input type="password" class="form-control" id="inputday">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="inputaddress" class="col-sm-2 col-form-label">Địa chỉ:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputaddress">
+                            <input type="password" class="form-control" id="inputaddress">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="inputemail" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputemail">
+                            <input type="password" class="form-control" id="inputemail">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="inputphone" class="col-sm-2 col-form-label">SĐT:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputphone">
+                            <input type="password" class="form-control" id="inputphone">
                         </div>
                     </div>
                     <div class="button">
-                        <asp:Button class="btn btn-info" ID="btnhuy" runat="server" Text="Đăng nhập" OnClick="btnhuy_Click" />
-                        <asp:Button class="btn btn-danger" ID="btndangky" runat="server" Text="Đăng Ký" OnClick="btndangky_Click" />
+                        <asp:Button class="btn btn-info" ID="btnhuy" runat="server" Text="Hủy" />
+                        <asp:Button class="btn btn-danger" ID="btndangky" runat="server" Text="Đăng Ký" />
                      </div>
                     <img src="../../Images/panalogup1.jpg" alt="Alternate Text" class="auto-style2 mt-3" />
                 </div>
