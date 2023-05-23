@@ -80,8 +80,6 @@
                </div>
             </div>
        </div> 
-        <span class="note">** Chú thích:</span>
-        <p class="desc">Các chi phí dịch vụ sửa chữa có thể phát sinh</p>
         <div class="cta__control">
             <asp:LinkButton runat="server" Text="Đăng ký bảo hành" CSSClass="cta__btn" OnClick="RedirectToDanhSachBaoHanh"  />
         </div>
